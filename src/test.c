@@ -21,7 +21,7 @@ char	*ft_conv_right(char c)
 		right = "-w-";
 	else if(n == 4)
 		right = "r--";
-	else if(n == 0)
+	else //if(n == 0)
 		right = "---";
 	return (right);
 }
@@ -78,35 +78,69 @@ t_file		*ft_get_file(t_file *file)
 	while(tmp)
 	{
 		path_nm = ft_strjoin(tmp->path, tmp->name);
-		//printf("path_nm = %s\n", path_nm);
-		if(stat(path_nm, &info) == -1)
+
+	//	printf("path_nm = %s\n", path_nm);
+		if(stat(path_nm, &info) < 0)
 		{
-			perror("stat error :");
-			//tmp = tmp->next;
-			return (NULL);
+			perror("stat error ");
+			tmp = tmp->next;
+		//	return (NULL);
 		}
-		pswd = getpwuid(info.st_uid);
-		gid = getgrgid(info.st_gid);
-		tmp->nlinks = info.st_nlink;
-		tmp->size = info.st_size;
-		tmp->owner = pswd->pw_name;
-		tmp->group = gid->gr_name;
-		tmp->right = ft_get_right(info.st_mode);
-		tmp->time = ctime(&info.st_mtime);
-		tmp->time = ft_mod_time(tmp->time);
-		if(S_ISREG(info.st_mode))
-			tmp->right = ft_strjoinf("-", tmp->right, 2);
-		if(S_ISDIR(info.st_mode))
+		else
 		{
-			tmp->right = ft_strjoinf("d", tmp->right, 2);
-			tmp->d = 1;
+		//	ft_printf("0\n");
+			if(!(pswd = getpwuid(info.st_uid)))
+				tmp->owner = "204";
+			else
+				tmp->owner = pswd->pw_name;
+			// ft_printf("1\n");
+			gid = getgrgid(info.st_gid);
+			// ft_printf("2\n");
+			tmp->nlinks = info.st_nlink;
+			// ft_printf("3\n");
+			tmp->size = info.st_size;
+			// ft_printf("5\n");
+			tmp->group = gid->gr_name;
+			// ft_printf("6\n");
+			tmp->right = ft_get_right(info.st_mode);
+			// ft_printf("7\n");
+			tmp->time = ctime(&info.st_mtime);
+			// ft_printf("8\n");
+			tmp->time = ft_mod_time(tmp->time);
+			// ft_printf("9\n");
+			if(S_ISREG(info.st_mode))
+				tmp->right = ft_strjoinf("-", tmp->right, 2);
+			if(S_ISDIR(info.st_mode))
+			{
+				tmp->right = ft_strjoinf("d", tmp->right, 2);
+				tmp->d = 1;
+			}
+			tmp = tmp->next;
 		}
-		tmp = tmp->next;
 	}
 	return (file);
 }
 
-int main(int ac, char const **av)
+
+void 	disp_file(t_file *file)
+{
+	while(file)
+	{
+		printf("file name = %s || file path =  %s\n", file->name, file->path);
+		file = file->next;
+	}
+}
+
+void	disp_dir(t_dir *dir)
+{
+	while(dir)
+	{
+		printf("dir name = %s || dir path =  %s\n", dir->name, dir->path);
+		dir = dir->next;
+	}
+}
+
+int main(int ac, char **av)
 {	
 	DIR 		*rep;
 	t_dir 		*dir;
@@ -124,46 +158,63 @@ int main(int ac, char const **av)
 		dir->name = ft_strdup(av[1]);
 	while(dir)
 	{
-		printf("dir->name = %s\n", dir->name);
+		printf("%s :\n", dir->name);
 		if(!(rep = opendir(dir->name)))
 		{
 			perror("opendir :");
-			exit(-1);
+			dir = dir->next;
+			//exit(-1);
 		}
-		if(!(dirent = readdir(rep)))
+		else
 		{
-			perror("readdir :");
-			return(0);
-		}
-		while(dirent)
-		{
-		//	printf("1\n");
-			dir->file = ft_add_file(dir->file, dirent->d_name, dir->name);
-		//	printf("2\n");
-			// if(!(dir->file = ft_get_file(dir->file)))
-			// 	return(0);
-			dirent = readdir(rep);
-		}
-		if(!(dir->file = ft_get_file(dir->file)))
-				return(0);
-		ft_disp_file(dir->file);
-		while(dir->file)
-		{
-			if(dir->file->name[0] != '.' && dir->file->d == 1)
+			if(!(dirent = readdir(rep)))
 			{
-			//	printf("dir->file->name = %s\n", dir->file->name);
-				tmp = ft_strjoin(dir->name, dir->file->name);
-				tmp = ft_strjoin(tmp, "/");
-				dir = ft_add_dir(dir, tmp, dir->name);
+				perror("readdir :");
+				return(0);
 			}
-			dir->file = dir->file->next;
+			while(dirent)
+			{
+				//printf("d_name = %s\n", dirent->d_name);
+				dir->file = ft_add_file(dir->file, dirent->d_name, dir->name);
+			//	printf("2\n");
+				// if(!(dir->file = ft_get_file(dir->file)))
+				// 	return(0);
+				dirent = readdir(rep);
+			}
+		//	disp_dir(dir);
+		//	disp_file(dir->file);
+			if(!(dir->file = ft_get_file(dir->file)))
+			{		
+		//			disp_file(dir->file);
+					return(0);
+			}
+			ft_disp_file(dir->file);
+
+			while(dir->file)
+			{
+				if(dir->file->name[0] != '.' && dir->file->d == 1)
+				{
+				//	printf("dir->file->name = %s\n", dir->file->name);
+					tmp = ft_strjoin(dir->name, dir->file->name);
+					tmp = ft_strjoin(tmp, "/");
+					dir = ft_add_dir(dir, tmp, dir->name);
+				}
+				dir->file = dir->file->next;
+			}
+		//	break ;
+			dir->file = tmpfile;
+			if(dir->next)
+				printf("\n");
+			//ft_printf("1\n");
+			//dir->file = ft_get_file(dir->file);
+			//ft_disp_file(dir->file);
+			if(closedir(rep) == -1)
+				perror("closedir ");
+			free(dir);
+			dir = dir->next;
 		}
-		dir->file = tmpfile;
-		//ft_printf("1\n");
-		//dir->file = ft_get_file(dir->file);
-		//ft_disp_file(dir->file);
-		dir = dir->next;
 	}
+	//disp_dir(dir);
 	return 0;
 }
 

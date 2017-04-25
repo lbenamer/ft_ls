@@ -38,6 +38,15 @@ typedef	struct			s_dir
 	struct s_dir 	*next;
 }						t_dir;
 
+typedef struct 			s_parse
+{
+	char 	**path;
+	int 	l;
+	int  	a;
+	int  	R;
+	int  	r;
+	int  	t;
+}						t_parse;
 
 void perror(const char* str);
 t_file *ft_init_file(void);

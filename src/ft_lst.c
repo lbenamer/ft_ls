@@ -40,8 +40,8 @@ t_file *ft_new_file(char *name, char *path)
 
 	if(!(file = ft_init_file()))
 		return(NULL);
-	file->name = name;
-	file->path = path;
+	file->name = ft_strdup(name);
+	file->path = ft_strdup(path);
 	return (file);
 }
 
@@ -52,8 +52,8 @@ t_file *ft_add_file(t_file *file, char *name, char *path)
 	tmp = file;
 	if(!file->name)
 	{
-		file->name = name;
-		file->path = path;
+		file->name = ft_strdup(name);
+		file->path = ft_strdup(path);
 		return(file);
 	}
 	else
@@ -71,8 +71,8 @@ t_dir	*ft_new_dir(char *name, char *path)
 
 	if(!(dir = ft_init_dir()))
 		return (NULL);
-	dir->name = name;
-	dir->path = path;
+	dir->name = ft_strdup(name);
+	dir->path = ft_strdup(path);
 	return (dir);
 }
 
@@ -83,8 +83,8 @@ t_dir	*ft_add_dir(t_dir *dir, char *name, char *path)
 	tmp = dir;
 	if(!dir->name)
 	{
-		dir->name = name;
-		dir->path = path;
+		dir->name = ft_strdup(name);
+		dir->path = ft_strdup(path);
 		return (dir);
 	}
 	else
