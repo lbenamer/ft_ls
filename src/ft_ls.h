@@ -34,8 +34,11 @@ typedef	struct			s_dir
 {
 	char 			*name;
 	char 			*path;
+	int 			open;
 	t_file 			*file;
 	struct s_dir 	*next;
+	struct s_dir 	*prev;
+	struct s_dir	*lstdir;
 }						t_dir;
 
 typedef struct 			s_parse

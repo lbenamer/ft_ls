@@ -10,6 +10,9 @@ t_dir  *ft_init_dir(void)
 	dir->path = NULL;
 	dir->file = ft_init_file();
 	dir->next = NULL;
+	dir->prev = NULL;
+	dir->lstdir = NULL;
+	dir->open = 0;
 	return (dir);
 }
 
@@ -81,10 +84,12 @@ t_dir	*ft_add_dir(t_dir *dir, char *name, char *path)
 	t_dir *tmp;
 
 	tmp = dir;
+	//printf("hey 1\n");
 	if(!dir->name)
 	{
 		dir->name = ft_strdup(name);
 		dir->path = ft_strdup(path);
+	//	printf("hey 3\n");
 		return (dir);
 	}
 	else
@@ -92,6 +97,7 @@ t_dir	*ft_add_dir(t_dir *dir, char *name, char *path)
 		while(tmp->next)
 			tmp = tmp->next;
 		tmp->next = ft_new_dir(name, path);
+		tmp->next->prev = tmp;
 	}
 	return (dir);
 }
