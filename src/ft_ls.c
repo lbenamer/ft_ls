@@ -3,17 +3,11 @@
 int 	ft_isops(char c)
 {
 	if(c == '\0')
-	{
 		return (-1);
-	}
 	else if(ft_strchr("lrRat", c))
-	{
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
 
 int 	ft_check_options(char *arg)
