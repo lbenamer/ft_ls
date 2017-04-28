@@ -68,7 +68,7 @@ t_file *ft_add_file(t_file *file, char *name, char *path)
 	return (file);
 }
 
-t_dir	*ft_new_dir(char *name, char *path)
+t_dir	*ft_new_dir(char *name, char *path, int open)
 {
 	t_dir *dir;
 
@@ -76,10 +76,11 @@ t_dir	*ft_new_dir(char *name, char *path)
 		return (NULL);
 	dir->name = ft_strdup(name);
 	dir->path = ft_strdup(path);
+	dir->open = open;
 	return (dir);
 }
 
-t_dir	*ft_add_dir(t_dir *dir, char *name, char *path)
+t_dir	*ft_add_dir(t_dir *dir, char *name, char *path, int open)
 {
 	t_dir *tmp;
 
@@ -89,6 +90,7 @@ t_dir	*ft_add_dir(t_dir *dir, char *name, char *path)
 	{
 		dir->name = ft_strdup(name);
 		dir->path = ft_strdup(path);
+		dir->open = open;
 	//	printf("hey 3\n");
 		return (dir);
 	}
@@ -96,7 +98,7 @@ t_dir	*ft_add_dir(t_dir *dir, char *name, char *path)
 	{
 		while(tmp->next)
 			tmp = tmp->next;
-		tmp->next = ft_new_dir(name, path);
+		tmp->next = ft_new_dir(name, path, open);
 		tmp->next->prev = tmp;
 	}
 	return (dir);

@@ -12,11 +12,12 @@
 
 CC      =   gcc
 RM      =   rm -f
-CFLAGS  =   -Wall -Wextra -Werror
+CFLAGS  =  -Wall -Werror -Wextra
 LIB		=	-L./libft -lft
 NAME    =   lsd
 SRCS    =   src/ft_lst.c \
 			src/test.c \
+			src/parse.c \
 
 OBJS    =   $(SRCS:.c=.o)
 

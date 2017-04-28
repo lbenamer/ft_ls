@@ -1,49 +1,22 @@
 #include "ft_ls.h"
 
-char	*ft_conv_right(char c)
-{
-	char 	*right;
-	int 	n;
-	
-	right = NULL;
-	n = c - 48;
-	if(n == 1)
-		right = "--x";
-	else if (n == 1 + 2)
-		right = "-wx";
-	else if(n == 1 + 2 + 4)
-		right = "rwx";
-	else if(n == 1 + 4)
-		right = "r-x";
-	else if(n == 2 + 4)
-		right = "rw-";
-	else if(n == 2)
-		right = "-w-";
-	else if(n == 4)
-		right = "r--";
-	else //if(n == 0)
-		right = "---";
-	return (right);
-}
-
 char	*ft_get_right(size_t n)
 {
-	char 	*tmp;
-	char 	*tmp2;
-	char 	*right;
-	int		i;
+	char *s;
 
-	if(!(right = (char*)ft_memalloc(sizeof(char))))
-		return (NULL);
-	tmp = ft_utoa_base(n, 8);
-	tmp = ft_strsub_f(tmp,ft_strlen_p(tmp) - 3, 3);
-	i = -1;
-	while(tmp[++i])
-	{
-		tmp2 = ft_conv_right(tmp[i]);
-		right = ft_strjoinf(right, tmp2, 0);
-	}
-	return (right);
+	if(!(s = ft_strnew(10)))
+		exit (0);
+
+	s[0] = (S_IRUSR & n) ? 'r' : '-';
+	s[1] = (S_IWUSR & n) ? 'w' : '-';
+	s[2] = (S_IXUSR & n) ? 'x' : '-';
+	s[3] = (S_IRGRP & n) ? 'r' : '-';
+	s[4] = (S_IWGRP & n) ? 'w' : '-';
+	s[5] = (S_IXGRP & n) ? 'x' : '-';
+	s[6] = (S_IROTH & n) ? 'r' : '-';
+	s[7] = (S_IWOTH & n) ? 'w' : '-';
+	s[8] = (S_IXOTH & n) ? 'x' : '-';
+	return (s);
 }
 
 char	*ft_mod_time(char *time)
@@ -65,6 +38,7 @@ void	ft_disp_file(t_file *file)
 			ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner, file->group, file->size, file->time, file->name);
 			file = file->next;
 		}
+		ft_printf("\n");
 }
 t_file		*ft_get_file(t_file *file)
 {
@@ -93,7 +67,6 @@ t_file		*ft_get_file(t_file *file)
 				tmp->owner = "204";
 			else
 				tmp->owner = pswd->pw_name;
-			// ft_printf("1\n");
 			gid = getgrgid(info.st_gid);
 			// ft_printf("2\n");
 			tmp->nlinks = info.st_nlink;
@@ -140,107 +113,60 @@ void	disp_dir(t_dir *dir)
 	}
 }
 
-// int main(int ac, char **av)
-// {	
-// 	DIR 		*rep;
-// 	t_dir 		*dir;
-// 	t_dirent 	*dirent;
-// 	t_file		*tmpfile;
-// 	char 		*tmp;
 
-// 	dir = ft_init_dir();
-// 	// dir->file = ft_init_file();
-// 	tmpfile = dir->file;
-// 	ac = 1;
-// 	if(av[1] == NULL)
-// 		dir->name = "./";
-// 	else
-// 		dir->name = ft_strdup(av[1]);
-// 	while(dir)
-// 	{
-// 		printf("%s :\n", dir->name);
-// 		if(!(rep = opendir(dir->name)))
-// 		{
-// 			perror("opendir :");
-// 			dir = dir->next;
-// 			//exit(-1);
-// 		}
-// 		else
-// 		{
-// 			if(!(dirent = readdir(rep)))
-// 			{
-// 				perror("readdir :");
-// 				return(0);
-// 			}
-// 			while(dirent)
-// 			{
-// 				//printf("d_name = %s\n", dirent->d_name);
-// 				dir->file = ft_add_file(dir->file, dirent->d_name, dir->name);
-// 			//	printf("2\n");
-// 				// if(!(dir->file = ft_get_file(dir->file)))
-// 				// 	return(0);
-// 				dirent = readdir(rep);
-// 			}
-// 		//	disp_dir(dir);
-// 		//	disp_file(dir->file);
-// 			if(!(dir->file = ft_get_file(dir->file)))
-// 			{		
-// 		//			disp_file(dir->file);
-// 					return(0);
-// 			}
-// 			ft_disp_file(dir->file);
+t_lsr 	*ft_new_lsr(char *name, char *path, int open)
+{
+	t_lsr *lsr;
 
-// 			while(dir->file)
-// 			{
-// 				if(dir->file->name[0] != '.' && dir->file->d == 1)
-// 				{
-// 				//	printf("dir->file->name = %s\n", dir->file->name);
-// 					tmp = ft_strjoin(dir->name, dir->file->name);
-// 					tmp = ft_strjoin(tmp, "/");
-// 					dir = ft_add_dir(dir, tmp, dir->name);
-// 				}
-// 				dir->file = dir->file->next;
-// 			}
-// 		//	break ;
-// 			dir->file = tmpfile;
-// 			if(dir->next)
-// 				printf("\n");
-// 			//ft_printf("1\n");
-// 			//dir->file = ft_get_file(dir->file);
-// 			//ft_disp_file(dir->file);
-// 			if(closedir(rep) == -1)
-// 				perror("closedir ");
-// 			free(dir);
-// 			dir = dir->next;
-// 		}
-// 	}
-// 	//disp_dir(dir);
-// 	return 0;
-// }
+	if(!(lsr = (t_lsr*)malloc(sizeof(t_lsr))))
+		return (NULL);
+	lsr->name = ft_strdup(name);
+	lsr->path = ft_strdup(path);
+	lsr->next = NULL;
+	lsr->open = open;
+	return (lsr);
+}
 
-t_dir 	*ft_lst_dir(t_dir *lstdir, t_dir *dir)
+t_lsr 	*ft_add_lsr(t_lsr *lstdir, char *name, char *path)
+{
+
+	t_lsr *tmp;
+
+	tmp = lstdir;
+	if(!lstdir->name)
+	{
+		lstdir->name = ft_strdup(name);
+		lstdir->path = ft_strdup(path);
+		return (lstdir);
+	}
+	else
+	{
+		while(tmp->next)
+			tmp = tmp->next;
+		tmp->next = ft_new_lsr(name, path, 0);
+	}
+	return (lstdir);
+}
+
+t_lsr 	*ft_lst_dir(t_lsr *lstdir, t_dir *dir)
 {
 	char *tmp;
 
 	tmp = NULL;
-//	ft_printf("1\n");
 	while(dir->file)
 	{
-		if(dir->file->name[0] != '.' && dir->file->d == 1)
+		if(ft_strcmp(dir->file->name, ".") && dir->file->d == 1 && ft_strcmp(dir->file->name, ".."))
 		{
-			//printf("dir->file->name = %s\n", dir->file->name);
 			tmp = ft_strjoin(dir->name, dir->file->name);
 			tmp = ft_strjoin(tmp, "/");
-			//ft_printf("2\n");
-			lstdir = ft_add_dir(lstdir, tmp, dir->name);
-		//	ft_printf("3\n");
+			lstdir = ft_add_lsr(lstdir, tmp, dir->name);
 		}
 		dir->file = dir->file->next;
 	}
 	return (lstdir);
 }
 
-void 	disp_lst(t_dir *lst)
+void 	disp_lst(t_lsr *lst)
 {
 	while(lst)
 	{
@@ -250,90 +176,214 @@ void 	disp_lst(t_dir *lst)
 
 }
 
+// int main(int ac, char **av)
+// {
+// 	DIR 		*rep;
+// 	t_lsr 		*tmpdir;
+// 	t_dir 		*dir;
+// 	t_dirent 	*dirent;
+// 	t_file		*tmpfile;
+
+// 	dir = ft_init_dir();
+// 	dir->lstdir = ft_new_lsr(NULL, NULL, 0);	// dir->file = ft_init_file();
+// 	tmpfile = dir->file;
+// 	ac = 1;
+// 	if(av[1] == NULL)
+// 		dir->name = "./";
+// 	else
+// 		dir->name = ft_strdup(av[1]);
+// 	while(dir)
+// 	{
+// 		// printf("******\ndebut de boucle\n dir name = %s\n", dir->name);
+// 		// printf("open->dir = %d\n", dir->open);
+// 		//dir->lstdir = ft_init_dir();
+// 		if(!dir->open)
+// 		{
+// 			//printf("open->dir = 0\n");
+// 			printf("%s :\n", dir->name);
+// 			dir->lstdir = ft_new_lsr(NULL, NULL, 0);
+// 			if(!(rep = opendir(dir->name)))
+// 			{
+// 				perror("opendir :");
+// 				dir = dir->next;
+// 				//exit(-1);
+// 			}
+// 			else
+// 			{
+// 				dir->open = 1;
+// 				if(!(dirent = readdir(rep)))
+// 				{
+// 					perror("readdir :");
+// 					return(0);
+// 				}
+// 				while(dirent)
+// 				{
+// 					//printf("d_name = %s\n", dirent->d_name);
+// 					//if(dirent->d_name[0] != '.')
+// 						dir->file = ft_add_file(dir->file, dirent->d_name, dir->name);
+// 				//	printf("2\n");
+// 					// if(!(dir->file = ft_get_file(dir->file)))
+// 					// 	return(0);
+// 					dirent = readdir(rep);
+// 				}
+// 				if(dir->file)
+// 					if(!(dir->file = ft_get_file(dir->file)))
+// 					{		
+// 						disp_file(dir->file);
+// 						return(0);
+// 					}
+// 				ft_disp_file(dir->file);
+// 				dir->lstdir = ft_lst_dir(dir->lstdir, dir);
+// 				//disp_lst(dir->lstdir);
+// 			}
+// 			if(closedir(rep) == -1)
+// 		 	perror("closedir ");
+// 		} 
+// 		//disp_lst(dir->lstdir);
+// 		tmpdir = dir->lstdir;
+// 		// printf("ok\n");
+// 		while(tmpdir)
+// 		{
+// 			// printf("while\n");
+// 			if(!tmpdir->open && tmpdir->name)
+// 			{
+// 			//	printf("dir->next = %s\n", tmpdir->name);
+// 				//tmpdir->prev = dir;
+// 				dir->next = ft_new_dir(tmpdir->name, tmpdir->path, tmpdir->open);
+// 				dir->next->prev = dir;
+// 				++tmpdir->open;
+// 				break;
+// 			}
+// 			tmpdir = tmpdir->next;
+// 			// printf("fin\n");
+// 		}
+// 		// printf("ok\n");
+// 		if(!tmpdir)
+// 		{
+// 		 	// printf("prev\n");
+// 			dir = dir->prev;
+// 		}
+// 		else
+// 		{
+// 			// printf("next\n");
+// 			dir = dir->next;
+// 		}
+// 		// printf("Fin de boucle \n ********\n");
+// 	}
+// 	return 0;
+// }
+
+t_dirent 	*ft_get_dirent(DIR *rep)
+{
+	t_dirent 	*dirent;
+
+	if(!(dirent = readdir(rep)))
+	{
+		//perror("readdir :");
+		return(NULL);
+	}
+	return (dirent);
+}
+
+
+DIR 	*ft_get_dir(char *name)
+{
+	DIR *rep;
+
+	if(!(rep = opendir(name)))
+	{
+		perror("opendir");
+		return (NULL);
+	}
+	return (rep);
+}
+
+int 	ft_ls(t_dir **dir)
+{
+	DIR *rep;
+	t_dirent *dirent;
+	t_dir *dir2;
+
+	dir2 = *dir;
+
+	dir2->lstdir = ft_new_lsr(NULL, NULL, 0);
+	if(!(rep = ft_get_dir(dir2->name)))
+		return (0);
+	while((dirent = ft_get_dirent(rep)) != NULL)
+		dir2->file = ft_add_file(dir2->file, dirent->d_name, dir2->name);
+	if(dir2->file)
+		dir2->file = ft_get_file(dir2->file);
+	ft_printf("%s :\n", dir2->name);
+	ft_disp_file(dir2->file);
+	dir2->lstdir = ft_lst_dir(dir2->lstdir, dir2);
+	if(closedir(rep) == -1)
+	{
+		perror("closedir ");
+			return (0);
+	}
+	dir2->open = 1;
+	return (1);
+}
+
+void ft_free_dir(t_dir **dir)
+{
+	//ft_strdel(&(*dir)->name);
+	//ft_strdel(&(*dir)->path);
+	free(*dir);
+}
+
 int main(int ac, char **av)
 {
-	DIR 		*rep;
-	t_dir 		*tmpdir;
-	t_dir 		*dir;
-	t_dirent 	*dirent;
-	t_file		*tmpfile;
+	t_dir *dir;
+	t_lsr *tmp;
+	t_parse parse;
 
 	dir = ft_init_dir();
-	dir->lstdir = ft_init_dir();
-	// dir->file = ft_init_file();
-	tmpfile = dir->file;
-	ac = 1;
-	if(av[1] == NULL)
-		dir->name = "./";
+	tmp = NULL;
+
+	if(ac == 1)
+		parse = ft_no_parse();
 	else
-		dir->name = ft_strdup(av[1]);
+		parse = ft_parse(av, ac);
+	print_ops(parse.ops);
+	disp_parse(parse);
+	dir->name = ft_strdup(parse.path[0]);
 	while(dir)
 	{
-		printf("******\ndebut de boucle\n dir name = %s\n", dir->name);
-		//dir->lstdir = ft_init_dir();
-		if(!dir->open)
+		//printf("dir name = %s\n", dir->name);
+		if (!dir->open)
+			ft_ls(&dir);
+		if((CHECK_OPS(parse.ops, RR)) && dir)
 		{
-		//	printf("%s :\n", dir->name);
-			dir->lstdir = ft_init_dir();
-			if(!(rep = opendir(dir->name)))
+	//		printf("r\n");
+			tmp = dir->lstdir;
+			while(tmp)
 			{
-				perror("opendir :");
-				dir = dir->next;
-				//exit(-1);
-			}
-			else
-			{
-				dir->open = 1;
-				if(!(dirent = readdir(rep)))
-				{
-					perror("readdir :");
-					return(0);
+				if(!tmp->open && tmp->name)
+				{	
+					dir->next = ft_new_dir(tmp->name, tmp->path, tmp->open);
+					dir->next->prev = dir;
+					++tmp->open;
+					break ;
 				}
-				while(dirent)
-				{
-					//printf("d_name = %s\n", dirent->d_name);
-					dir->file = ft_add_file(dir->file, dirent->d_name, dir->name);
-				//	printf("2\n");
-					// if(!(dir->file = ft_get_file(dir->file)))
-					// 	return(0);
-					dirent = readdir(rep);
-				}
-				if(!(dir->file = ft_get_file(dir->file)))
-				{		
-						disp_file(dir->file);
-						return(0);
-				}
-				ft_disp_file(dir->file);
-				dir->lstdir = ft_lst_dir(dir->lstdir, dir);
-				//disp_lst(dir->lstdir);
+				else 
+					tmp = tmp->next;
 			}
 		}
-		disp_lst(dir->lstdir);	//	printf("1\n");
-		tmpdir = dir->lstdir;
-		while(tmpdir)
-		{
-			//printf("lstdir name = %s\n", dir->lstdir->name);
-			if(!tmpdir->open)
-			{
-				printf("dir->next = %s\n", tmpdir->name);
-				dir->next = tmpdir;
-				dir->next->prev = dir;
-				break;
-			}
-			else
-			{
-				printf("lst null\n");
-				tmpdir = tmpdir->next;
-			}
-		}
-		if(!tmpdir->name)
-		{
-			printf("prev\n");
+	//	printf("heu\n");
+		if(!tmp)
+		{	
+	//		printf("prev\n");
+		//	printf("dir prev = %s\n", dir->prev->name);
+			
+			//ft_free_dir(&dir);
 			dir = dir->prev;
 		}
 		else
+		{
+			//ft_printf("%s :\n", dir->next->name);
 			dir = dir->next;
-		printf("Fin de boucle \n ********\n");
+		}
 	}
 	return 0;
 }
