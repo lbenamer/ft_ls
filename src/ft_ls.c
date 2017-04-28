@@ -93,7 +93,8 @@ int 	ft_ls(t_dir **dir, int ops)
 	if(CHECK_OPS(ops, L) || CHECK_OPS(ops, RR))
 		if(dir2->file)
 			dir2->file = ft_get_file(dir2->file);
-	ft_printf("%s :\n", dir2->name);
+	if(dir2->prev)
+		ft_printf("%s :\n", dir2->name);
 	if(CHECK_OPS(ops, L))
 		ft_disp_file(dir2->file, ops);
 	else

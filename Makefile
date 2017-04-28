@@ -39,4 +39,10 @@ fclean:     clean
 
 re:         fclean all
 
-.PHONY:     all clean fclean re
+push:
+			@git add .
+			@echo "Enter Your Commit :"
+			@read var1 ; git commit -m "$$var1"
+			@git push
+
+.PHONY:     all clean fclean re push

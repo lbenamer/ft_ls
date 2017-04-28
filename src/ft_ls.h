@@ -88,7 +88,7 @@ int 					ft_activ_ops(int ops, char *arg);
 void					ft_disp_usage(char *arg);
 t_parse					ft_no_parse(void);
 
-// mamlst.c :
+// manlst.c :
 t_file					*ft_new_file(char *name, char *path);
 t_file					*ft_add_file(t_file *file, char *name, char *path);
 t_dir					*ft_new_dir(char *name, char *path, int open);
@@ -110,6 +110,6 @@ t_file					*ft_init_file(void);
 
 // main.c :
 
-void	ft_disp_name(t_file *file, int ops);
-void	ft_disp_file(t_file *file, int ops);
+void					ft_disp_name(t_file *file, int ops);
+void					ft_disp_file(t_file *file, int ops);
 #endif
