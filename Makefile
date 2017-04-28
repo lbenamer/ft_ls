@@ -15,9 +15,12 @@ RM      =   rm -f
 CFLAGS  =  -Wall -Werror -Wextra
 LIB		=	-L./libft -lft
 NAME    =   lsd
-SRCS    =   src/ft_lst.c \
-			src/test.c \
+SRCS    =   src/ft_ls.c \
+			src/main.c \
 			src/parse.c \
+			src/init.c \
+			src/get.c \
+			src/manlst.c \
 
 OBJS    =   $(SRCS:.c=.o)
 
