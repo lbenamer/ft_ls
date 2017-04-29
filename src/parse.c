@@ -61,20 +61,25 @@ char  	**ft_set_path(char **av, int ac, int i)
 {
 	char **path;
 	int j;
+	int len;
 
 	j = 0;
 	if(i == ac)
 	{	
 		if (!(path = (char**)ft_memalloc(sizeof(char*) * (2))))
 			exit (0);
-		path[0] = ft_strdup("./");
-	//	path[1] = NULL;
+		path[0] = ft_strdup("./"); 
 		return (path);
 	}
 	if (!(path = (char**)ft_memalloc(sizeof(char*) * (ac - i + 1))))
 		exit (0);
 	while(av[i])
+	{
+		len = ft_strlen_p(av[i]) - 1;
+		if(av[i][len] != '/')
+			av[i] = ft_strcat(av[i], "/");
 		path[j++] = av[i++];
+	}
 	path[j] = NULL;
 	return (path);
 }
@@ -97,8 +102,6 @@ t_parse   ft_parse(char **av, int ac)
 		}
 		else if(ft_check_options(av[i]) == -1)
 			break ;
-		// else
-		// 	++i;
 	}
 	while(++j < i)
 		parse.ops = ft_activ_ops(parse.ops, av[j]);

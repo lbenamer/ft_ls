@@ -27,7 +27,7 @@
 # define YELLOW		"\033[33m"
 # define BLUE		"\033[34m"
 # define MAGENTA	"\033[35m"
-# define CYAN		"\033[36m"
+# define CYAN		"\033[36;01m"
 # define WHITE		"\033[37m"
 
 typedef	struct	dirent	t_dirent;
@@ -56,6 +56,7 @@ typedef struct			s_lsr
 	char			*path;
 	int				open;
 	struct s_lsr	*next;
+	struct s_lsr 	*prev;
 } 						t_lsr;
 
 typedef	struct			s_dir
@@ -78,8 +79,6 @@ typedef struct			s_parse
 // ft_ls.c :
 int						ft_lsdir(char *name, int ops);
 int						ft_ls(t_dir **dir, int ops);
-int						ft_check_options(char *arg);
-int						ft_isops(char c);
 t_lsr					*ft_lst_dir(t_lsr *lstdir, t_dir *dir);
 // parse.c :
 t_parse					ft_parse(char **av, int ac);
@@ -107,7 +106,8 @@ char					*ft_mod_time(char *time);
 t_parse					ft_init_parse(void);
 t_dir					*ft_init_dir(void);
 t_file					*ft_init_file(void);
-
+int						ft_check_options(char *arg);
+int						ft_isops(char c);
 // main.c :
 
 void					ft_disp_name(t_file *file, int ops);

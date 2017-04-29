@@ -77,6 +77,7 @@ t_lsr 	*ft_new_lsr(char *name, char *path, int open)
 	lsr->name = ft_strdup(name);
 	lsr->path = ft_strdup(path);
 	lsr->next = NULL;
+	lsr->prev = NULL;
 	lsr->open = open;
 	return (lsr);
 }
@@ -98,6 +99,7 @@ t_lsr 	*ft_add_lsr(t_lsr *lstdir, char *name, char *path)
 		while(tmp->next)
 			tmp = tmp->next;
 		tmp->next = ft_new_lsr(name, path, 0);
+		tmp->next->prev = tmp;
 	}
 	return (lstdir);
 }

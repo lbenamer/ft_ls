@@ -1,0 +1,2121 @@
+total 18624
+-rw-r--r--   1 root  wheel    72610 19 oct  2016 Assets.car
+drwxr-xr-x  20 root  wheel      680 21 jan 16:07 Base.lproj
+-rw-r--r--   1 root  wheel   102921 31 jul  2016 DeclarationStrings.plist
+-rw-r--r--   1 root  wheel    10566 19 oct  2016 DisabledFont.tiff
+drwxr-xr-x  48 root  wheel     1632 29 jul  2016 Dutch.lproj
+-rw-r--r--   1 root  wheel    10010 19 oct  2016 EnabledFont.tiff
+drwxr-xr-x  30 root  wheel     1020 31 jul  2016 English.lproj
+-rw-r--r--   1 root  wheel      223 31 jul  2016 FBInternal.plist
+-rw-r--r--   1 root  wheel     7095 31 jul  2016 FBValidationErrorIcon.png
+-rw-r--r--   1 root  wheel    18538 31 jul  2016 FBValidationPass.pdf
+-rw-r--r--   1 root  wheel     8928 31 jul  2016 FBValidationWarningIcon.png
+-rw-r--r--   1 root  wheel     8668 31 jul  2016 Font Book.rsrc
+drwxr-xr-x   3 root  wheel      102  5 mai  2016 FontBook.help
+-rw-r--r--   1 root  wheel    16053 31 jul  2016 FontBook.scriptSuite
+-rw-r--r--   1 root  wheel    10072 31 jul  2016 FontBook.scriptTerminology
+-rw-r--r--   1 root  wheel      917 31 jul  2016 FontBookDefaults.plist
+-rw-r--r--   1 root  wheel     1599 31 jul  2016 FontBookDuplicateWindow.toolbar
+drwxr-xr-x   2 root  wheel       68 31 jul  2016 FontMetadata
+-rw-r--r--   1 root  wheel   680270 31 jul  2016 FontbookDocument_cfr.icns
+-rw-r--r--   1 root  wheel   685430 31 jul  2016 FontbookDocument_dfont.icns
+-rw-r--r--   1 root  wheel   666361 31 jul  2016 FontbookDocument_ffil.icns
+-rw-r--r--   1 root  wheel   681895 31 jul  2016 FontbookDocument_lwfn.icns
+-rw-r--r--   1 root  wheel   683448 31 jul  2016 FontbookDocument_otc.icns
+-rw-r--r--   1 root  wheel   676826 31 jul  2016 FontbookDocument_otf.icns
+-rw-r--r--   1 root  wheel   681592 31 jul  2016 FontbookDocument_sfnt.icns
+-rw-r--r--   1 root  wheel   689347 31 jul  2016 FontbookDocument_sfont.icns
+-rw-r--r--   1 root  wheel   675246 31 jul  2016 FontbookDocument_ttc.icns
+-rw-r--r--   1 root  wheel   666453 31 jul  2016 FontbookDocument_ttf.icns
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 French.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 German.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 Italian.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 Japanese.lproj
+-rw-r--r--   1 root  wheel    52529 31 jul  2016 LanguageAlphabets.plist
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 Spanish.lproj
+drwxr-xr-x   2 root  wheel       68 31 jul  2016 StubFonts
+-rw-r--r--   1 root  wheel    17512 31 jul  2016 TBCustom.pdf
+-rw-r--r--   1 root  wheel    16119 31 jul  2016 TBDisabledCheckbox.pdf
+-rw-r--r--   1 root  wheel    18716 31 jul  2016 TBEnabledCheckbox.pdf
+-rw-r--r--   1 root  wheel    13978 31 jul  2016 TBGrid.pdf
+-rw-r--r--   1 root  wheel    13512 31 jul  2016 TBList.pdf
+-rw-r--r--   1 root  wheel  1305330 31 jul  2016 appicon.icns
+-rw-r--r--   1 root  wheel    82510 19 oct  2016 appicon_128x128.tiff
+-rw-r--r--   1 root  wheel     9872 19 oct  2016 appicon_16x16.tiff
+-rw-r--r--   1 root  wheel   253248 19 oct  2016 appicon_256x256.tiff
+-rw-r--r--   1 root  wheel    15104 19 oct  2016 appicon_32x32.tiff
+-rw-r--r--   1 root  wheel   827724 19 oct  2016 appicon_512x512.tiff
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 ar.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 ca.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 cs.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 da.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 el.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 es_MX.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 fi.lproj
+-rw-r--r--   1 root  wheel     9308 19 oct  2016 fontbookSidebarLibrary-selected.tiff
+-rw-r--r--   1 root  wheel     9328 19 oct  2016 fontbookSidebarLibrary.tiff
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 he.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 hr.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 hu.lproj
+-rw-r--r--   1 root  wheel     7966 19 oct  2016 iCloud.tiff
+-rw-r--r--   1 root  wheel     8028 19 oct  2016 iCloudInverted.tiff
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 id.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 ko.lproj
+-rw-r--r--   1 root  wheel     8392 19 oct  2016 locked fonts.tiff
+drwxr-xr-x  48 root  wheel     1632 25 jan 04:13 ms.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 no.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 pl.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 pt.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 pt_PT.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 ro.lproj
+drwxr-xr-x  48 root  wheel     1632 21 jan 16:07 ru.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 sk.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 sv.lproj
+drwxr-xr-x  48 root  wheel     1632 21 jan 16:07 th.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 tr.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 uk.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 vi.lproj
+drwxr-xr-x  48 root  wheel     1632 30 jul  2016 zh_CN.lproj
+drwxr-xr-x  48 root  wheel     1632 31 jul  2016 zh_TW.lproj
+
+/Applications/Font Book.app/Contents/Resources//Base.lproj:
+total 472
+-rw-r--r--  1 root  wheel  11137 19 oct  2016 FBAlertPanel.nib
+-rw-r--r--  1 root  wheel  12683 19 oct  2016 FBBadFontWarningWindowController.nib
+-rw-r--r--  1 root  wheel  23558 19 oct  2016 FBCollectionOutlineView.nib
+-rw-r--r--  1 root  wheel  10360 31 jul  2016 FBComparisonCollectionViewItem.nib
+-rw-r--r--  1 root  wheel   6998 31 jul  2016 FBDuplicateResolutionCollectionViewItem.nib
+-rw-r--r--  1 root  wheel  30755 19 oct  2016 FBDuplicateResolutionPanel.nib
+-rw-r--r--  1 root  wheel  10857 31 jul  2016 FBEditSmartCollectionSheet.nib
+-rw-r--r--  1 root  wheel  16728 19 oct  2016 FBFontsView.nib
+-rw-r--r--  1 root  wheel  17464 31 jul  2016 FBMainWindow.nib
+-rw-r--r--  1 root  wheel  65006 19 oct  2016 FBMultiPreviewView.nib
+-rw-r--r--  1 root  wheel  11334 19 oct  2016 FBPreferencesWindow.nib
+-rw-r--r--  1 root  wheel  14200 31 jul  2016 FBPreviewWindow.nib
+-rw-r--r--  1 root  wheel  22953 19 oct  2016 FBPrintAccessory.nib
+-rw-r--r--  1 root  wheel   5044 19 oct  2016 FBPrintPreview.nib
+-rw-r--r--  1 root  wheel   7885 19 oct  2016 FBProgressCell.nib
+-rw-r--r--  1 root  wheel   7438 19 oct  2016 FBProgressWindow.nib
+-rw-r--r--  1 root  wheel  29500 19 oct  2016 FBValidationPanel.nib
+-rw-r--r--  1 root  wheel  26914 31 jul  2016 MainMenu.nib
+
+/Applications/Font Book.app/Contents/Resources//Dutch.lproj:
+total 16
+-rw-r--r--  1 root  wheel    386 29 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  16239 29 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    148 29 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    587 29 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1303 29 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     72 29 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    228 29 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    516 29 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    366 29 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    295 29 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    223 29 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1429 29 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    128 29 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    222 29 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    729 29 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1664 29 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    580 29 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    281 29 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    686 29 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     62 29 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    101 29 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    104 29 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1027 29 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    368 29 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1301 29 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    720 29 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3109 29 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2202 29 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1157 29 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    415 29 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 29 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1313 29 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 29 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    535 29 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    516 29 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    339 29 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    169 29 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   2862 29 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2300 29 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    689 29 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1339 29 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    743 29 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2415 29 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//English.lproj:
+total 0
+-rw-r--r--  1 root  wheel    319 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  13900 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    845 31 jul  2016 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    134 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    601 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1113 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     70 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    845 31 jul  2016 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    329 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 31 jul  2016 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1203 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    646 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2097 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1084 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    357 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1408 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    483 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    489 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    292 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    160 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   2838 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1901 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    664 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1226 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    688 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   1885 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help:
+total 0
+drwxr-xr-x  7 root  wheel  238 25 jan 04:13 Contents
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents:
+total 0
+-rw-r--r--   1 root  wheel  1272  5 mai  2016 Info.plist
+-rw-r--r--   1 root  wheel     8  5 mai  2016 PkgInfo
+drwxr-xr-x  38 root  wheel  1292 25 jan 04:13 Resources
+drwxr-xr-x   6 root  wheel   204 25 jan 04:13 _CodeSignature
+-rw-r--r--   1 root  wheel   462 31 jul  2016 version.plist
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources:
+total 8
+drwxr-xr-x  4 root  wheel  136  5 mai  2016 SharedGlobalArt
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 ar.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 ca.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 cs.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 da.lproj
+drwxr-xr-x  8 root  wheel  272 28 mai  2016 de.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 el.lproj
+drwxr-xr-x  8 root  wheel  272 30 jul  2016 en.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 es.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 es_MX.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 fi.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 fr.lproj
+drwxr-xr-x  8 root  wheel  272 28 mai  2016 he.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 hr.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 hu.lproj
+drwxr-xr-x  8 root  wheel  272 28 mai  2016 id.lproj
+lrwxr-xr-x  1 root  wheel   49 25 jan 04:12 index.html -> /Library/Documentation/Resources/Eagle/index.html
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 it.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 ja.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 ko.lproj
+drwxr-xr-x  8 root  wheel  272 10 jui  2016 ms.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 nl.lproj
+drwxr-xr-x  8 root  wheel  272 28 mai  2016 no.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 pl.lproj
+drwxr-xr-x  8 root  wheel  272 28 mai  2016 pt.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 pt_PT.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 ro.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 ru.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 sk.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 sv.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 th.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 tr.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 uk.lproj
+drwxr-xr-x  8 root  wheel  272 28 mai  2016 vi.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 zh_CN.lproj
+drwxr-xr-x  8 root  wheel  272  5 jui  2016 zh_TW.lproj
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/SharedGlobalArt:
+total 248
+-rw-r--r--  1 root  wheel    5231  5 mai  2016 AppIconDefault_FontBook.png
+-rw-r--r--  1 root  wheel  117158  5 mai  2016 AppLanding_FontBook.png
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/ar.lproj:
+total 0
+-rw-r--r--  1 root  wheel   225  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   493 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    94 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1501 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/ca.lproj:
+total 0
+-rw-r--r--  1 root  wheel   249  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   478 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    88 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1429 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/cs.lproj:
+total 0
+-rw-r--r--  1 root  wheel   249  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   476 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    88 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1301 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/da.lproj:
+total 0
+-rw-r--r--  1 root  wheel   229  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   460 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    85 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1283 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/de.lproj:
+total 0
+-rw-r--r--  1 root  wheel   195 28 mai  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   464 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    87 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1417 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  8980 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/el.lproj:
+total 0
+-rw-r--r--  1 root  wheel   304  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   568 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    95 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1946 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/en.lproj:
+total 0
+-rw-r--r--  1 root  wheel   177 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   448  5 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   116  5 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1239  5 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  8979  5 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/es.lproj:
+total 0
+-rw-r--r--  1 root  wheel    269  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel    489 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel     89 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel   1444 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel    858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  17173 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/es_MX.lproj:
+total 0
+-rw-r--r--  1 root  wheel    269  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel    492 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    113 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel   1447 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel    858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  17172 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/fi.lproj:
+total 0
+-rw-r--r--  1 root  wheel   189  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   460 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    86 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1347 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/fr.lproj:
+total 0
+-rw-r--r--  1 root  wheel    197  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel    472 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel     89 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel   1389 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel    858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  11028 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/he.lproj:
+total 0
+-rw-r--r--  1 root  wheel   241 28 mai  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   504 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    90 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1539 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/hr.lproj:
+total 0
+-rw-r--r--  1 root  wheel   245  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   467 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    90 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1339 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/hu.lproj:
+total 0
+-rw-r--r--  1 root  wheel   217  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   464 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    89 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1404 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  8980 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/id.lproj:
+total 0
+-rw-r--r--  1 root  wheel   187 28 mai  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   454 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   100 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1267 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/it.lproj:
+total 0
+-rw-r--r--  1 root  wheel    185  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel    454 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel     89 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel   1274 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel    858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  11029 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/ja.lproj:
+total 0
+-rw-r--r--  1 root  wheel   201  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   456 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    91 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1440 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/ko.lproj:
+total 0
+-rw-r--r--  1 root  wheel   189  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   470 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    89 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1364 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/ms.lproj:
+total 0
+-rw-r--r--  1 root  wheel   185 10 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   464  8 jui  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    96  8 jui  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1219  8 jui  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932  8 jui  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/nl.lproj:
+total 0
+-rw-r--r--  1 root  wheel   201  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   469 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    89 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1399 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/no.lproj:
+total 0
+-rw-r--r--  1 root  wheel   187 28 mai  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   454 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   111 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1242 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/pl.lproj:
+total 0
+-rw-r--r--  1 root  wheel   253  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   473 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    86 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1418 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/pt.lproj:
+total 0
+-rw-r--r--  1 root  wheel   249 28 mai  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   477 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   124 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1324 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/pt_PT.lproj:
+total 0
+-rw-r--r--  1 root  wheel   269  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   489 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   111 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1441 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/ro.lproj:
+total 0
+-rw-r--r--  1 root  wheel   185  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   463 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    90 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1336 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/ru.lproj:
+total 0
+-rw-r--r--  1 root  wheel   213  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   497 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    95 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1655 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/sk.lproj:
+total 0
+-rw-r--r--  1 root  wheel   253  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   474 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    91 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1333 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/sv.lproj:
+total 0
+-rw-r--r--  1 root  wheel    225  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel    459 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel     88 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel   1314 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel    858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  17173 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/th.lproj:
+total 0
+-rw-r--r--  1 root  wheel   229  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   544 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    99 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1879 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/tr.lproj:
+total 0
+-rw-r--r--  1 root  wheel   237  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   469 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    89 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1369 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/uk.lproj:
+total 0
+-rw-r--r--  1 root  wheel   237  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   502 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   103 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1620 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/vi.lproj:
+total 0
+-rw-r--r--  1 root  wheel   269 28 mai  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   503 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel    98 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1465 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/zh_CN.lproj:
+total 0
+-rw-r--r--  1 root  wheel   169  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   451 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   122 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1223 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6932 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/Resources/zh_TW.lproj:
+total 0
+-rw-r--r--  1 root  wheel   177  5 jui  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   463 27 mai  2016 fntbede246a6.html
+-rw-r--r--  1 root  wheel   134 27 mai  2016 locale-info.json
+-rw-r--r--  1 root  wheel  1227 27 mai  2016 navigation.json
+-rw-r--r--  1 root  wheel   858 17 fév  2016 redirect.html
+-rw-r--r--  1 root  wheel  6931 27 mai  2016 search.helpindex
+
+/Applications/Font Book.app/Contents/Resources//FontBook.help/Contents/_CodeSignature:
+total 32
+-rw-r--r--  1 root  wheel    200 13 jan 08:27 CodeDirectory
+-rw-r--r--  1 root  wheel     72 14 sep  2016 CodeRequirements
+-rw-r--r--  1 root  wheel  80403 13 jan 08:27 CodeResources
+-rw-r--r--  1 root  wheel   4105 13 jan 08:27 CodeSignature
+
+/Applications/Font Book.app/Contents/Resources//FontMetadata:
+
+/Applications/Font Book.app/Contents/Resources//French.lproj:
+total 48
+-rw-r--r--  1 root  wheel    494 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  22364 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    895 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    171 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    751 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1773 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     71 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    315 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    888 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    460 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    409 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    332 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1898 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    167 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    241 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    839 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1953 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    705 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    279 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    934 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     69 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     99 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    113 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1226 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    396 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1350 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    800 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel  22165 30 jul  2016 MainMenu.nib
+-rw-r--r--  1 root  wheel   2922 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1713 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    519 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     93 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2311 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    674 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    693 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    462 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    207 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3490 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2491 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    693 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   2059 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    857 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   3224 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//German.lproj:
+total 16
+-rw-r--r--  1 root  wheel    402 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  21684 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    862 21 jui  2013 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    158 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    627 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1541 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     71 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    221 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    798 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    383 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    396 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    274 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1713 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    141 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    217 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    820 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1791 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    605 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    262 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    790 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     62 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     97 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    105 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1062 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    338 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1251 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    687 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3489 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2499 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1655 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    524 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     93 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2036 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    681 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    606 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    523 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    327 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    167 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3078 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2168 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    679 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1819 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    789 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2473 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//Italian.lproj:
+total 16
+-rw-r--r--  1 root  wheel    356 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  17138 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    871 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    148 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    612 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1294 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     76 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    246 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    749 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    394 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    384 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    242 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1495 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    136 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    218 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    796 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1770 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    520 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    253 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    694 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     63 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    101 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     94 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    996 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    330 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1221 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    643 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2963 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2227 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1138 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    397 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1789 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    548 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    624 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    294 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    161 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3750 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1963 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    662 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1328 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    727 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2189 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//Japanese.lproj:
+total 16
+-rw-r--r--  1 root  wheel    345 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  14053 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel   1048 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    140 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    633 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel    972 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     63 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    216 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    450 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    391 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    288 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    185 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1142 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    140 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    221 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    725 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1628 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    505 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    265 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    684 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     65 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     71 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    106 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    885 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    356 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1225 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    675 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2587 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2091 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1145 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    389 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1285 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    548 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    529 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    478 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    333 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    164 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3508 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1862 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    670 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1432 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    728 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2004 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//Spanish.lproj:
+total 16
+-rw-r--r--  1 root  wheel    598 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  21301 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    849 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    146 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    773 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1494 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     69 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    229 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    766 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    464 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    297 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    336 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1658 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    174 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    238 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    863 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1870 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    646 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    286 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    985 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     62 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     89 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    106 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1051 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    350 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1364 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    877 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3675 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2690 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1855 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    494 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     93 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2354 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    665 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    702 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    786 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    525 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    189 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3717 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2187 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    708 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1577 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    864 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2573 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//StubFonts:
+
+/Applications/Font Book.app/Contents/Resources//ar.lproj:
+total 16
+-rw-r--r--  1 root  wheel    441 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  18481 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    884  6 jui  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    160 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    733 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1368 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     79 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    262 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    660 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    429 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    341 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    289 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1586 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    160 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    245 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    888 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1775 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    583 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    293 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    973 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     65 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     81 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    114 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845  8 mai  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1052 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    349 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1563 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    709 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3422 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2555 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1395 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    447 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     93 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1659 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel   1001 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    649 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    633 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    381 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    202 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3804 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2349 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel   1021 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1670 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    840 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2866 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//ca.lproj:
+total 16
+-rw-r--r--  1 root  wheel    544 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  21737 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    857 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    150 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    788 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1572 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     71 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    255 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    849 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    501 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    398 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    336 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1672 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    188 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    263 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    851 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1884 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    627 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    352 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    932 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     63 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     97 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    154 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 20 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1307 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    351 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 20 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1382 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    943 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3781 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   3039 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1809 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    602 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2453 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    665 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    696 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    751 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    531 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    227 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4411 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2471 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    716 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1868 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    803 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   3067 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//cs.lproj:
+total 16
+-rw-r--r--  1 root  wheel    479 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  18402 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    908 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    158 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    743 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1652 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     81 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    289 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    708 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    445 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    356 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    281 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1755 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    148 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    224 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    920 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1958 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    625 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    303 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    886 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     59 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     95 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    115 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 20 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1149 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    392 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 20 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1415 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    769 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3528 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2678 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1540 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    523 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1999 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    600 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    650 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    425 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    210 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3940 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2224 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    867 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1510 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    826 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2843 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//da.lproj:
+total 16
+-rw-r--r--  1 root  wheel    411 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  18600 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    855 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    176 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    623 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1475 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     70 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    223 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    689 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    374 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    331 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    241 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1613 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    154 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    216 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    824 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1812 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    568 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    260 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    753 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    103 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    102 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    988 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    344 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1227 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    696 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2991 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2494 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1541 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    395 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1896 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    673 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    534 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    493 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    284 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    167 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3178 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2003 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    674 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1536 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    766 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2310 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//el.lproj:
+total 16
+-rw-r--r--  1 root  wheel    641 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  24240 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    889 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    228 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    859 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1872 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    323 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    916 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    463 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    497 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    360 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   2031 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    158 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    268 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel   1082 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   2206 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    679 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    372 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel   1134 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     89 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    135 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1387 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    389 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1695 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    971 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   4362 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   3493 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1827 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    607 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2425 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    899 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    770 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    551 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    234 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4698 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2877 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    778 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   2108 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    982 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   3268 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//es_MX.lproj:
+total 16
+-rw-r--r--  1 root  wheel    445 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20924 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    845  2 jui  2014 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    146 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    775 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1472 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     69 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    229 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    767 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    455 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    328 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    276 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1660 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    169 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    228 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    867 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1914 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    616 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    290 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    896 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     62 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     89 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    106 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845  2 jui  2014 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1039 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    350 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257  2 jui  2014 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1364 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    806 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3696 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2674 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1859 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    512 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2305 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    665 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    700 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    756 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    559 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    189 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3763 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2205 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    708 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1581 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    828 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2584 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//fi.lproj:
+total 16
+-rw-r--r--  1 root  wheel    509 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  19010 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    857  2 mar  2015 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    234 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    700 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1479 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     71 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    255 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    671 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    367 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    388 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    241 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1719 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    133 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    217 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    843 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1670 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    567 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    261 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    736 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     97 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     95 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1054 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    349 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1348 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    667 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3275 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2730 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1489 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    461 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1719 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    673 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    584 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    681 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    411 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    185 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   2939 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2227 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    671 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1697 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    821 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2548 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//he.lproj:
+total 16
+-rw-r--r--  1 root  wheel    447 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  17643 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    844 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    148 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    657 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1332 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     77 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    262 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    630 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    392 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    325 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    263 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1452 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    150 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    227 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    822 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1785 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    583 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    275 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    801 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     63 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     89 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    106 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845  8 mai  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1147 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    359 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1457 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    721 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3214 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2453 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1323 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    479 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1617 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    623 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    607 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    363 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    186 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3992 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2157 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    899 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1628 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    840 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2408 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//hr.lproj:
+total 16
+-rw-r--r--  1 root  wheel    479 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  19451 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    857 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    180 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    655 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1511 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     85 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    220 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    735 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    402 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    266 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    276 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1707 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    140 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    231 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    780 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1795 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    569 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    260 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    902 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     83 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    105 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1070 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    344 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1343 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    658 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3295 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2620 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1509 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    407 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1894 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    569 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    562 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    318 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    169 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3440 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2227 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    722 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1611 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    759 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2828 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//hu.lproj:
+total 16
+-rw-r--r--  1 root  wheel    569 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  21384 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    881 27 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    222 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    833 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1734 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel    111 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    272 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    760 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    475 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    433 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    312 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1934 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    157 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    251 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    897 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1961 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    621 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    361 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    984 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     60 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    128 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1259 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    365 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1437 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    807 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   4032 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   3233 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1651 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    513 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2273 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    632 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    671 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    453 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    234 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3924 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2429 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    766 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1895 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    958 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2935 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//id.lproj:
+total 16
+-rw-r--r--  1 root  wheel    365 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  14087 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    845 18 jui  2013 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    152 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    622 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1214 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     70 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    225 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    458 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    366 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    250 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    220 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1298 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    134 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    212 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    703 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1552 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    520 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    245 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    665 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     62 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    137 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     92 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845  7 avr  2013 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    973 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    337 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257  7 avr  2013 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1241 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    627 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2855 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2204 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1054 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    384 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1412 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    492 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    487 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    289 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    161 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   2930 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1918 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    618 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1305 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    714 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   1993 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//ko.lproj:
+total 16
+-rw-r--r--  1 root  wheel    323 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  13621 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    943 26 jui  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    140 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    575 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1079 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     65 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    210 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    434 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    359 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    252 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    219 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1243 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    130 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    211 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    724 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1519 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    487 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    244 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    666 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     89 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     92 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    903 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    339 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1211 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    645 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2552 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   1969 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1073 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    371 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1267 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    503 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    528 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    305 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    146 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3768 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1828 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    668 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1296 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    698 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2078 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//ms.lproj:
+total 16
+-rw-r--r--  1 root  wheel    352 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  13989  8 nov 02:14 Alert.strings
+-rw-r--r--  1 root  wheel    845 13 avr  2013 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    147 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    619 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1179 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     70 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    219 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    419 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    373 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    263 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    234 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1262 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    132 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    214 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    721 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1561 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    522 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    248 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    678 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     64 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    137 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     90 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 13 avr  2013 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    941 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    330 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 13 avr  2013 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1228 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    614 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2863 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2225 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1062 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    364 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1487 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    473 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    490 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    287 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    155 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   2989 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1903 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    620 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1217 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    706 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   1928 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//no.lproj:
+total 16
+-rw-r--r--  1 root  wheel    420 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  18095 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    857 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    142 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    614 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1092 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     70 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    232 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    655 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    374 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    359 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    251 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1276 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    130 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    210 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    758 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1842 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    552 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    255 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    738 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     60 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    107 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     99 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    968 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    334 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1231 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    622 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2909 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2258 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1529 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    411 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1802 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    673 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    506 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    479 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    283 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    161 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3029 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1949 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    665 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1277 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    768 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2219 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//pl.lproj:
+total 16
+-rw-r--r--  1 root  wheel    483 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20600 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    881 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    182 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    694 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1618 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     91 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    223 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    828 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    451 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    346 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    227 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1793 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    128 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    249 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    825 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1900 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    610 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    271 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    860 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     99 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    129 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1134 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    345 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1339 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    709 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3531 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2644 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1606 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    492 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2091 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    648 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    710 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    497 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    199 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3222 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2205 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    794 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1583 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    849 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2948 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//pt.lproj:
+total 16
+-rw-r--r--  1 root  wheel    529 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20545 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    140 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    751 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1919 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     71 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    255 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    772 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    434 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    399 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    342 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   2008 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    152 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    240 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    854 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1826 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    269 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    958 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    111 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    121 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1131 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    341 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1354 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    760 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3476 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2543 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1648 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    477 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2082 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    658 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    719 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    475 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    212 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4308 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2143 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    668 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1689 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    857 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2491 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//pt_PT.lproj:
+total 16
+-rw-r--r--  1 root  wheel    491 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20862 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    144 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    687 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1669 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     71 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    247 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    781 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    461 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    429 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    338 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1651 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    154 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    236 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    845 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1862 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    622 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    275 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    966 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     97 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    106 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1030 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    342 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1343 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    835 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3704 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2816 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1840 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    510 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2234 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    720 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    768 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    561 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    201 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3879 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2409 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    708 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1740 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    826 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2658 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//ro.lproj:
+total 16
+-rw-r--r--  1 root  wheel    567 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20204 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    865 20 fév  2015 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    202 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    757 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1640 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     81 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    263 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    765 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    463 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    392 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    326 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1850 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    168 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    237 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    830 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   2027 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    580 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    287 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    967 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     73 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     79 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    142 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1244 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    334 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1354 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    696 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3617 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2944 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1670 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    470 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2069 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    607 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    672 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    441 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    170 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3553 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2136 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    730 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1789 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    909 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2832 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//ru.lproj:
+total 16
+-rw-r--r--  1 root  wheel    457 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20375 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    928 27 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    184 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    775 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1702 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     83 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    278 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    723 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    457 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    351 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    294 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1853 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    162 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    230 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    968 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1940 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    617 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    336 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel   1024 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     63 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     91 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    117 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1164 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    387 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1579 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    755 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3774 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2893 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1521 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    539 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1977 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    705 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    719 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    467 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    216 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4488 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2367 19 oct  2016 Status.strings
+-rw-r--r--  1 root  wheel    884 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1742 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    934 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   3044 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//sk.lproj:
+total 16
+-rw-r--r--  1 root  wheel    477 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  19235 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    881 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    184 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    805 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1616 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     81 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    290 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    735 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    432 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    378 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    289 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1840 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    168 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    224 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    938 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1920 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    760 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    299 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    940 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     61 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     77 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    115 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1212 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    358 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1431 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    761 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3660 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2647 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1543 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    535 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1995 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    674 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    664 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    431 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    196 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3920 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2319 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    867 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1611 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    889 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2741 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//sv.lproj:
+total 16
+-rw-r--r--  1 root  wheel    429 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  19682 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    857 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    148 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    689 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1522 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     77 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    241 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    704 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    366 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    386 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    285 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1570 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    138 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    218 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    786 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1779 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    655 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    265 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    817 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     69 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    119 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    102 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    941 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    337 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1281 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    593 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3226 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2491 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1528 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    422 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     88 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2041 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    673 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    580 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    556 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    393 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    188 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3932 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2137 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    678 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1353 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    842 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2592 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//th.lproj:
+total 16
+-rw-r--r--  1 root  wheel    527 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  19989 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    921 26 jui  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    208 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    793 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1606 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    272 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    688 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    459 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    333 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    271 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1684 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    188 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    251 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    906 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1852 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    648 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    372 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    983 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     71 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    113 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    126 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1210 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    359 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1521 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    805 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3598 26 oct  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2875 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1505 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    525 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1899 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    679 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    628 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    419 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    206 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4238 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2557 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    700 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1904 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    888 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2840 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//tr.lproj:
+total 48
+-rw-r--r--  1 root  wheel    514 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20199 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    869 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    228 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    718 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1734 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     93 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    238 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    677 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    395 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    366 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    314 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1809 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    160 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    220 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    859 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1724 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    633 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    292 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    966 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     62 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    109 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1135 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    402 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1400 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    767 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel  21873 31 jul  2016 MainMenu.nib
+-rw-r--r--  1 root  wheel   2994 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1608 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    472 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   1979 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    685 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    654 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    668 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    433 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    206 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4058 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2397 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    661 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1880 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    830 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2792 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//uk.lproj:
+total 16
+-rw-r--r--  1 root  wheel    423 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  19751 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    992 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    184 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    827 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1508 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel    101 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    282 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    754 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    449 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    342 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    351 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1718 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    166 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    265 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    961 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1941 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    696 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    336 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel   1035 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     65 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    150 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1156 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    367 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1537 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    777 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3874 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2807 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1509 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    507 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2049 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    817 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    693 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    758 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    439 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    226 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4152 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2407 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    881 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1728 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    932 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2984 31 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//vi.lproj:
+total 16
+-rw-r--r--  1 root  wheel    511 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  20823 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel   1049 19 jan  2015 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    168 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    889 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel   1909 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    282 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    795 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    455 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    351 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    318 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1942 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    156 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    251 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    930 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1932 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    676 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    354 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    979 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     67 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel    115 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel    126 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    534 14 mai  2014 FBValidation.toolbar
+-rw-r--r--  1 root  wheel   1224 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    361 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2017 14 mai  2014 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1517 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    857 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   3742 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   2605 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel   1565 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    555 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel   2105 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    673 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    745 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    748 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    487 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    242 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   4164 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   2536 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    649 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1686 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    847 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   2932 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//zh_CN.lproj:
+total 16
+-rw-r--r--  1 root  wheel    266 30 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  11187 30 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel    876 25 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    124 30 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    543 30 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel    855 30 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     67 30 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    190 30 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    328 30 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    355 30 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    224 30 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    187 30 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1026 30 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    124 30 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    211 30 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    666 30 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1354 30 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    481 30 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    225 30 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    592 30 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     59 30 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     73 30 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     90 30 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    789 30 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    323 30 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1137 30 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    613 30 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2200 30 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   1713 30 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel    903 30 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    300 30 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 30 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel    973 30 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 30 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    423 30 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    440 30 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    248 30 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    144 30 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3304 30 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1635 30 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    623 30 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1120 30 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    644 30 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   1656 30 jul  2016 Validation.strings
+
+/Applications/Font Book.app/Contents/Resources//zh_TW.lproj:
+total 16
+-rw-r--r--  1 root  wheel    266 31 jul  2016 Accessibility.strings
+-rw-r--r--  1 root  wheel  11229 31 jul  2016 Alert.strings
+-rw-r--r--  1 root  wheel   1036 26 avr  2012 AlphabeticSample.text
+-rw-r--r--  1 root  wheel    124 31 jul  2016 Button.strings
+-rw-r--r--  1 root  wheel    539 31 jul  2016 Collection.strings
+-rw-r--r--  1 root  wheel    911 31 jul  2016 DuplicateResolution.strings
+-rw-r--r--  1 root  wheel     65 31 jul  2016 External.strings
+-rw-r--r--  1 root  wheel    188 31 jul  2016 FBAlertPanel.strings
+-rw-r--r--  1 root  wheel    331 31 jul  2016 FBBadFontWarningWindowController.strings
+-rw-r--r--  1 root  wheel    353 31 jul  2016 FBCollectionOutlineView.strings
+-rw-r--r--  1 root  wheel    230 31 jul  2016 FBComparisonCollectionViewItem.strings
+-rw-r--r--  1 root  wheel    187 31 jul  2016 FBDuplicateResolutionCollectionViewItem.strings
+-rw-r--r--  1 root  wheel   1070 31 jul  2016 FBDuplicateResolutionPanel.strings
+-rw-r--r--  1 root  wheel    124 31 jul  2016 FBEditSmartCollectionSheet.strings
+-rw-r--r--  1 root  wheel    212 31 jul  2016 FBFontsView.strings
+-rw-r--r--  1 root  wheel    664 31 jul  2016 FBMainWindow.strings
+-rw-r--r--  1 root  wheel   1353 31 jul  2016 FBMultiPreviewView.strings
+-rw-r--r--  1 root  wheel    475 31 jul  2016 FBPreferencesWindow.strings
+-rw-r--r--  1 root  wheel    230 31 jul  2016 FBPreviewWindow.strings
+-rw-r--r--  1 root  wheel    588 31 jul  2016 FBPrintAccessory.strings
+-rw-r--r--  1 root  wheel     59 31 jul  2016 FBPrintPreview.strings
+-rw-r--r--  1 root  wheel     67 31 jul  2016 FBProgressCell.strings
+-rw-r--r--  1 root  wheel     89 31 jul  2016 FBProgressWindow.strings
+-rw-r--r--  1 root  wheel    845 12 avr  2012 FBValidation.toolbar
+-rw-r--r--  1 root  wheel    824 31 jul  2016 FBValidationPanel.strings
+-rw-r--r--  1 root  wheel    304 31 jul  2016 Font.strings
+-rw-r--r--  1 root  wheel   2257 12 avr  2012 FontBook.toolbar
+-rw-r--r--  1 root  wheel   1145 31 jul  2016 FontInfo.strings
+-rw-r--r--  1 root  wheel    567 31 jul  2016 InfoPlist.strings
+-rw-r--r--  1 root  wheel   2244 31 jul  2016 MainMenu.strings
+-rw-r--r--  1 root  wheel   1713 31 jul  2016 Menu.strings
+-rw-r--r--  1 root  wheel    927 31 jul  2016 Prefs.strings
+-rw-r--r--  1 root  wheel    327 31 jul  2016 Preview.strings
+-rw-r--r--  1 root  wheel     87 31 jul  2016 ProgressWindow.strings
+-rw-r--r--  1 root  wheel    971 31 jul  2016 RestoringFonts.strings
+-rw-r--r--  1 root  wheel    597 31 jul  2016 Samples.strings
+-rw-r--r--  1 root  wheel    423 31 jul  2016 Scripting.strings
+-rw-r--r--  1 root  wheel    448 31 jul  2016 Services.strings
+-rw-r--r--  1 root  wheel    248 31 jul  2016 ServicesMenu.strings
+-rw-r--r--  1 root  wheel    146 31 jul  2016 SidebarGroups.strings
+-rw-r--r--  1 root  wheel   3352 31 jul  2016 SmartCollections.strings
+-rw-r--r--  1 root  wheel   1613 31 jul  2016 Status.strings
+-rw-r--r--  1 root  wheel    623 31 jul  2016 Status.stringsdict
+-rw-r--r--  1 root  wheel   1116 31 jul  2016 ToolTip.strings
+-rw-r--r--  1 root  wheel    650 31 jul  2016 Toolbar.strings
+-rw-r--r--  1 root  wheel   1658 31 jul  2016 Validation.strings

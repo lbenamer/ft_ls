@@ -7,10 +7,15 @@ void	ft_disp_file(t_file *file, int ops)
 		if(file->name)
 			while(file)
 			{
-				ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner, file->group, file->size, file->time, file->name);
+				if(!file->d)
+					ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner, file->group, file->size, file->time, file->name);
+				else
+				{
+					ft_printf("%s %4ld %s %s %8ld %s ", file->right, file->nlinks, file->owner, file->group, file->size, file->time);
+					ft_printf(CYAN"%s\n"STOP, file->name);
+				}
 				file = file->next;
 			}
-		ft_printf("\n");
 	}
 	else
 	{
@@ -20,10 +25,15 @@ void	ft_disp_file(t_file *file, int ops)
 				file = file->next;	
 			while(file)
 			{
-				ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner, file->group, file->size, file->time, file->name);
+				if(!file->d)
+					ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner, file->group, file->size, file->time, file->name);
+				else
+				{
+					ft_printf("%s %4ld %s %s %8ld %s ", file->right, file->nlinks, file->owner, file->group, file->size, file->time);
+					ft_printf(CYAN"%s\n"STOP, file->name);
+				}
 				file = file->prev;
 			}
-		ft_printf("\n");
 		}
 	}
 }
@@ -38,7 +48,6 @@ void	ft_disp_name(t_file *file, int ops)
 				ft_printf("%s\n", file->name);
 				file = file->next;
 			}
-		ft_printf("\n");
 	}
 	else
 	{
@@ -51,7 +60,6 @@ void	ft_disp_name(t_file *file, int ops)
 				ft_printf("%s\n", file->name);
 				file = file->prev;
 			}
-		ft_printf("\n");
 		}
 	}
 }
