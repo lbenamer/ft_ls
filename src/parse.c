@@ -1,4 +1,5 @@
 #include "ft_ls.h"
+void disp_parse(t_parse parse);
 
 void	print_ops(int ops)
 {
@@ -73,14 +74,13 @@ char  	**ft_set_path(char **av, int ac, int i)
 	}
 	if (!(path = (char**)ft_memalloc(sizeof(char*) * (ac - i + 1))))
 		exit (0);
-	while(av[i])
+	while(i < ac)
 	{
 		len = ft_strlen_p(av[i]) - 1;
 		if(av[i][len] != '/')
-			av[i] = ft_strcat(av[i], "/");
+			av[i] = ft_strjoin(av[i], "/");
 		path[j++] = av[i++];
 	}
-	path[j] = NULL;
 	return (path);
 }
 
@@ -106,6 +106,7 @@ t_parse   ft_parse(char **av, int ac)
 	while(++j < i)
 		parse.ops = ft_activ_ops(parse.ops, av[j]);
 	parse.path = ft_set_path(av, ac, i);
+	//disp_parse(parse);
 	return (parse);
 }
 
