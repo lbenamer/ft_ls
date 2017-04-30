@@ -43,8 +43,10 @@ typedef struct			s_file
 	char			*owner;
 	char			*time;
 	char			*right;
-	size_t			size;
+	size_t			size; 
 	size_t			nlinks;
+	size_t 			stime;
+	size_t			block;
 	int				d;
 	struct s_file	*prev;
 	struct s_file	*next;
@@ -76,6 +78,12 @@ typedef struct			s_parse
 	int		ops;
 }						t_parse;
 
+
+// sort_list.c
+t_file					*ft_sort_lst(t_file *file, int ops);
+t_file					*ft_sort_ascii(t_file *file);
+void					ft_swap_lst(t_file **a, t_file **b);
+int						ft_is_sort(t_file *file);
 // ft_ls.c :
 int						ft_lsdir(char *name, int ops);
 int						ft_ls(t_dir **dir, int ops);

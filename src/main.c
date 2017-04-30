@@ -1,7 +1,24 @@
 #include "ft_ls.h"
 
+void 	ft_disp_block(t_file *file)
+{
+	//ne pas compter les block de liens// a faire // 
+	size_t total;
+
+	total = 0;
+	while(file)
+	{
+		total += file->block;
+		file = file->next;
+	}
+	ft_printf("total %lld\n", total);
+}
+
+
 void	ft_disp_file(t_file *file, int ops)
 {
+	if(file->name)
+		ft_disp_block(file);
 	if(!CHECK_OPS(ops, R))
 	{
 		if(file->name)
@@ -24,7 +41,7 @@ void	ft_disp_file(t_file *file, int ops)
 					ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner,
 					file->group, file->size, file->time, file->name);
 				}
-
+				//printf("block = %ld\n", file->block);
 				file = file->next;
 			}
 	}
@@ -53,6 +70,7 @@ void	ft_disp_file(t_file *file, int ops)
 					ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner,
 					file->group, file->size, file->time, file->name);
 				}
+			//	ft_printf("stime = %lld\n", file->stime);
 				file = file->prev;
 			}
 		}

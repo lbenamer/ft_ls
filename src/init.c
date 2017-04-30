@@ -41,6 +41,8 @@ t_file *ft_init_file(void)
 	file->size = 0;
 	file->nlinks = 0;
 	file->d = 0;
+	file->stime = 0;
+	file->block = 0;
 	file->prev = NULL;
 	file->next = NULL;
 	return (file);
@@ -48,9 +50,7 @@ t_file *ft_init_file(void)
 
 int 	ft_isops(char c)
 {
-	if(c == '\0')
-		return (-1);
-	else if(ft_strchr("lrRat", c))
+	if(ft_strchr("lrRat", c))
 		return (1);
 	else
 		return (0);

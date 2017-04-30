@@ -21,6 +21,7 @@ SRCS    =   src/ft_ls.c \
 			src/init.c \
 			src/get.c \
 			src/manlst.c \
+			src/sort_list.c \
 
 OBJS    =   $(SRCS:.c=.o)
 

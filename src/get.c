@@ -48,6 +48,8 @@ t_file		*ft_get_file(t_file *file)
 			tmp->size = info.st_size;
 			tmp->group = gid->gr_name;
 			tmp->right = ft_get_right(info.st_mode);
+			tmp->stime = info.st_mtime;
+			tmp->block = info.st_blocks;
 			tmp->time = ctime(&info.st_mtime);
 			tmp->time = ft_mod_time(tmp->time);
 			if(S_ISREG(info.st_mode))
