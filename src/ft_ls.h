@@ -43,7 +43,10 @@ typedef struct			s_file
 	char			*owner;
 	char			*time;
 	char			*right;
-	size_t			size; 
+	char 			*link;
+	char 			type;
+	size_t			size;
+	size_t 			slink;
 	size_t			nlinks;
 	size_t 			stime;
 	size_t			block;
@@ -83,7 +86,7 @@ typedef struct			s_parse
 t_file					*ft_sort_lst(t_file *file, int ops);
 t_file					*ft_sort_ascii(t_file *file);
 void					ft_swap_lst(t_file **a, t_file **b);
-int						ft_is_sort(t_file *file);
+t_file					*ft_is_sort(t_file *file);
 // ft_ls.c :
 int						ft_lsdir(char *name, int ops);
 int						ft_ls(t_dir **dir, int ops);
@@ -96,8 +99,8 @@ void					ft_disp_usage(char *arg);
 t_parse					ft_no_parse(void);
 
 // manlst.c :
-t_file					*ft_new_file(char *name, char *path);
-t_file					*ft_add_file(t_file *file, char *name, char *path);
+t_file					*ft_new_file(char *name, char *path, char type);
+t_file					*ft_add_file(t_file *file, char *name, char *path, char type);
 t_dir					*ft_new_dir(char *name, char *path, int open);
 t_dir					*ft_add_dir(t_dir *dir, char *name, char *path, int open);
 t_lsr					*ft_new_lsr(char *name, char *path, int open);
@@ -105,10 +108,11 @@ t_lsr					*ft_add_lsr(t_lsr *lstdir, char *name, char *path);
 
 // get.c :
 char					*ft_get_right(size_t n);
-t_file					*ft_get_file(t_file *file);
+t_file					*ft_get_file(t_file *file, int ops);
 t_dirent				*ft_get_dirent(DIR *rep);
 DIR						*ft_get_dir(char *name);
 char					*ft_mod_time(char *time);
+char 					ft_get_type(unsigned char type);
 
 // init.c :
 t_parse					ft_init_parse(void);
@@ -117,7 +121,7 @@ t_file					*ft_init_file(void);
 int						ft_check_options(char *arg);
 int						ft_isops(char c);
 // main.c :
-
+void disp(t_file *file);
 void					ft_disp_name(t_file *file, int ops);
 void					ft_disp_file(t_file *file, int ops);
 #endif

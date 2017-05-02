@@ -19,19 +19,82 @@ char	*ft_get_right(size_t n)
 	return (s);
 }
 
-t_file		*ft_get_file(t_file *file)
+char 	ft_get_type(unsigned char type)
+{
+	if (type == DT_BLK)
+		return('b');
+	else if (type == DT_CHR)
+		return('c');
+	else if (type == DT_DIR)
+		return('d');
+	else if (type == DT_FIFO)
+		return('p');
+	else if (type == DT_LNK)
+		return('l');
+	else if (type == DT_REG)
+		return('-');
+	else if (type == DT_SOCK)
+		return('s');
+	else if (type == DT_UNKNOWN)
+		return('-');
+	else
+		return ('-');
+}
+
+char 	*ft_get_link(size_t size, char *path)
+{
+	char *buf;
+
+	buf = ft_strnew(size);
+	readlink(path, buf, size);
+	return (buf);
+}
+
+t_file 		*ft_get_info(t_file *file, t_stat info, int ops)
+{
+	t_pwd *pswd;
+	t_grp *gid;
+
+	if(CHECK_OPS(ops, L))
+	{
+		if(!(pswd = getpwuid(info.st_uid)))
+			file->owner = "204";
+		else
+			file->owner = pswd->pw_name;
+		gid = getgrgid(info.st_gid);
+		file->nlinks = info.st_nlink;
+		//if(file->type != 'l')
+			file->size = info.st_size;
+		file->group = gid->gr_name;
+		file->right = ft_get_right(info.st_mode);
+		file->stime = info.st_mtime;
+		//if(file->type != 'l')
+			file->block = info.st_blocks;
+		file->time = ctime(&info.st_mtime);
+		file->time = ft_mod_time(file->time);
+	}
+	if(CHECK_OPS(ops, T))
+		file->stime = info.st_mtime;
+	// if(file->type == 'l')
+	// {
+	// 	file->link = ft_get_link(info.st_size, path_nm);
+	// 	printf("file link = %s\n", file->link);
+	// }
+	return (file);
+}
+
+
+t_file		*ft_get_file(t_file *file, int ops)
 {
 	t_file 	*tmp;
 	t_stat 	info;
+//	t_stat	i_link;
 	char 	*path_nm;
-	t_pwd 	*pswd;
-	t_grp 	*gid;
 
 	tmp = file;
 	while(tmp)
 	{
 		path_nm = ft_strjoin(tmp->path, tmp->name);
-
 		if(stat(path_nm, &info) < 0)
 		{
 			perror("stat error ");
@@ -39,26 +102,17 @@ t_file		*ft_get_file(t_file *file)
 		}
 		else
 		{
-			if(!(pswd = getpwuid(info.st_uid)))
-				tmp->owner = "204";
-			else
-				tmp->owner = pswd->pw_name;
-			gid = getgrgid(info.st_gid);
-			tmp->nlinks = info.st_nlink;
-			tmp->size = info.st_size;
-			tmp->group = gid->gr_name;
-			tmp->right = ft_get_right(info.st_mode);
-			tmp->stime = info.st_mtime;
-			tmp->block = info.st_blocks;
-			tmp->time = ctime(&info.st_mtime);
-			tmp->time = ft_mod_time(tmp->time);
-			if(S_ISREG(info.st_mode))
-				tmp->right = ft_strjoinf("-", tmp->right, 2);
-			if(S_ISDIR(info.st_mode))
+			if(tmp->type == 'l')
 			{
-				tmp->right = ft_strjoinf("d", tmp->right, 2);
-				tmp->d = 1;
+				lstat(path_nm, &info);
+				tmp->link = ft_get_link(info.st_size, path_nm);
+				// info.st_size = i_link.st_size;
+				// info.st_blocks = i_link.st_blocks;
+				// info.st_mode = i_link.st_mode;
+			//	info = i_link;
+
 			}
+			tmp = ft_get_info(tmp, info, ops);
 			tmp = tmp->next;
 		}
 	}

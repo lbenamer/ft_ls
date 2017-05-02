@@ -1,16 +1,15 @@
 #include "ft_ls.h"
 
-
-int 		ft_is_sort(t_file *file)
+t_file 	*ft_is_sort(t_file *file)
 {
 	while(file->next)
 	{
 		if(ft_strcmp(file->name, file->next->name) < 0)
 			file = file->next;
 		else
-			return (0);
+			return (file);
 	}
-	return (1);
+	return (NULL);
 }
 
 void	 	ft_cpy_data(t_file **tmp, t_file *file)
@@ -28,7 +27,9 @@ void	 	ft_cpy_data(t_file **tmp, t_file *file)
 	new->nlinks = file->nlinks;
 	new->stime = file->stime;
 	new->d = file->d;
-	new->block = file->block;                         
+	new->type = file->type;
+	new->block = file->block;
+	new->link = file->link;                         
 }
 
 void		ft_swap_lst(t_file **a, t_file **b)
@@ -41,30 +42,16 @@ void		ft_swap_lst(t_file **a, t_file **b)
 	ft_cpy_data(b,tmp);	
 }
 
-int 		ft_is_sort_t(t_file *file)
+t_file 		*ft_is_sort_t(t_file *file)
 {
 	while(file->next)
 	{
 		if(file->stime >= file->next->stime)
 			file = file->next;
 		else 
-			return (0);
+			return (file);
 	}
-	return (1);
-}
-
-t_file  *ft_sort_rev(t_file *file)
-{
-	t_file *tmp;
-
-	tmp = file;
-	while(tmp->prev)
-	{
-		if(ft_strcmp(tmp->prev->name, tmp->name) > 0)
-			ft_swap_lst(&tmp->prev, &tmp);
-		tmp = tmp->prev;
-	}
-	return (file);
+	return (NULL);
 }
 
 t_file 	 	*ft_sort_time(t_file *file)
@@ -72,38 +59,31 @@ t_file 	 	*ft_sort_time(t_file *file)
 	t_file *start;
 
 	start = file;
-	while(!ft_is_sort_t(start))
+	while((file = ft_is_sort_t(start)) && file->next)
 	{
-		while(file->next)
-		{
 			if(file->stime < file->next->stime)
 				ft_swap_lst(&file, &file->next);
 			file = file->next;
-		}
-		file = start;
 	}	
+	file = start;
 	return (file);
-
 }
 
 t_file 		*ft_sort_ascii(t_file *file)
 {
 	t_file *start;
 
-	start = file;
-
-	while(!ft_is_sort(start))
+	start = file; 
+	while((file = ft_is_sort(start)) != NULL)
 	{
 		while(file->next)
 		{
 			if(ft_strcmp(file->name, file->next->name) > 0)
-				ft_swap_lst(&file, &file->next);
-			file = ft_sort_rev(file);
-			file = file->next;
+ 				ft_swap_lst(&file, &file->next);
+ 			file = file->next;
 		}
-		file = start;
-	}	
-	return (file);
+	}
+	return (start);
 }
 
 t_file 		*ft_sort_lst(t_file *file, int ops)

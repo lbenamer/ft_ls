@@ -79,7 +79,7 @@ char  	**ft_set_path(char **av, int ac, int i)
 		len = ft_strlen_p(av[i]) - 1;
 		if(av[i][len] != '/')
 			av[i] = ft_strjoin(av[i], "/");
-		path[j++] = av[i++];
+		path[j++] = ft_strdup(av[i++]);
 	}
 	return (path);
 }

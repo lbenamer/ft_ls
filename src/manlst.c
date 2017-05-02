@@ -1,6 +1,6 @@
 #include "ft_ls.h"
 
-t_file *ft_new_file(char *name, char *path)
+t_file *ft_new_file(char *name, char *path, char type)
 {
 	t_file *file;
 
@@ -8,10 +8,11 @@ t_file *ft_new_file(char *name, char *path)
 		return(NULL);
 	file->name = ft_strdup(name);
 	file->path = ft_strdup(path);
+	file->type = type;
 	return (file);
 }
 
-t_file *ft_add_file(t_file *file, char *name, char *path)
+t_file *ft_add_file(t_file *file, char *name, char *path, char type)
 {
 	t_file *tmp;
 
@@ -20,13 +21,14 @@ t_file *ft_add_file(t_file *file, char *name, char *path)
 	{
 		file->name = ft_strdup(name);
 		file->path = ft_strdup(path);
+		file->type = type;
 		return(file);
 	}
 	else
 	{
 		while(tmp->next)
 			tmp = tmp->next;
-		tmp->next = ft_new_file(name, path);
+		tmp->next = ft_new_file(name, path, type);
 		tmp->next->prev = tmp;
 	}
 	return (file);

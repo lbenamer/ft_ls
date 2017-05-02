@@ -42,7 +42,7 @@ t_lsr 	*ft_lst_dir(t_lsr *lstdir, t_dir *dir)
 	tmp = NULL;
 	while(dir->file)
 	{
-		if(ft_strcmp(dir->file->name, ".") && dir->file->d == 1 && ft_strcmp(dir->file->name, ".."))
+		if(ft_strcmp(dir->file->name, ".") && dir->file->type == 'd' && ft_strcmp(dir->file->name, ".."))
 		{
 			tmp = ft_strjoin(dir->name, dir->file->name);
 			tmp = ft_strjoin(tmp, "/");
@@ -124,39 +124,31 @@ int 	ft_ls(t_dir **dir, int ops)
 	t_dir *dir2;
 
 	dir2 = *dir;
+	char type;
 	//printf("open file\n");
 	dir2->lstdir = ft_new_lsr(NULL, NULL, 0);
 	if(!(rep = ft_get_dir(dir2->name)))
 		return (0);
 	while((dirent = ft_get_dirent(rep)) != NULL)
 	{
+		type = ft_get_type(dirent->d_type);
 		if(CHECK_OPS(ops, A))
-			dir2->file = ft_add_file(dir2->file, dirent->d_name, dir2->name);
+			dir2->file = ft_add_file(dir2->file, dirent->d_name, dir2->name, type);
 		else
 			if(dirent->d_name[0] != '.')
-				dir2->file = ft_add_file(dir2->file, dirent->d_name, dir2->name);
+				dir2->file = ft_add_file(dir2->file, dirent->d_name, dir2->name, type);
 	}
 	if(!dir2->file->name)
 	{
 		closedir(rep);
 		return (0);
 	}
-	if(CHECK_OPS(ops, L) || CHECK_OPS(ops, RR) || CHECK_OPS(ops, T))
-		if(dir2->file)
-			dir2->file = ft_get_file(dir2->file);
+	if(CHECK_OPS(ops, L) || CHECK_OPS(ops, T))	
+		dir2->file ? dir2->file = ft_get_file(dir2->file, ops) : 0;
 	dir2->file = ft_sort_lst(dir2->file, ops);
-	if(dir2->prev)
-		ft_printf("%s :\n", dir2->name);
-	if(CHECK_OPS(ops, L))
-		ft_disp_file(dir2->file, ops);
-	else
-		ft_disp_name(dir2->file, ops);
+	dir2->prev	? ft_printf("%s :\n", dir2->name) : 0;
+	ft_disp_file(dir2->file, ops);
 	CHECK_OPS(ops, RR) ? dir2->lstdir = ft_lst_dir(dir2->lstdir, dir2) : 0;
-	// if(closedir(rep) == -1)
-	// {
-	// 	perror("closedir ");
-	// 		return (0);
-	// }
 	closedir(rep);
 	dir2->open = 1;
 	return (1);

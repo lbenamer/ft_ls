@@ -1,8 +1,16 @@
 #include "ft_ls.h"
 
+void disp(t_file *file)
+{
+	while(file)
+	{
+		ft_printf("file name = %s\n", file->name);
+		file = file->next;
+	}
+
+}
 void 	ft_disp_block(t_file *file)
 {
-	//ne pas compter les block de liens// a faire // 
 	size_t total;
 
 	total = 0;
@@ -11,98 +19,53 @@ void 	ft_disp_block(t_file *file)
 		total += file->block;
 		file = file->next;
 	}
-	ft_printf("total %lld\n", total);
+	ft_printf("total %lu\n", total);
 }
 
+int	ft_print_color(t_file *file, int ops)
+{
+	if(file->type == 'd')
+	{
+		ft_printf(CYAN"%s\n"STOP, file->name);
+		return (1);
+	}
+	else if(file->type == 'l')
+	{
+		ft_printf(MAGENTA"%s"STOP, file->name);
+		if(CHECK_OPS(ops , L))
+			ft_printf(" -> %s", file->link);
+		ft_printf("\n");
+		return (1);
+	}
+	else if(ft_strchr(file->right, 'x'))
+	{
+		ft_printf(RED"%s\n"STOP, file->name);
+		return (1);
+	}
+	else
+		ft_printf("%s\n", file->name);
+	return (1);
+}
 
 void	ft_disp_file(t_file *file, int ops)
 {
-	if(file->name)
+	if(file->name && CHECK_OPS(ops, L))
 		ft_disp_block(file);
-	if(!CHECK_OPS(ops, R))
+	if(CHECK_OPS(ops, R))
+		while(file->next)
+			file = file->next;
+	while(file)
 	{
-		if(file->name)
-			while(file)
-			{
-				if(file->d)
-				{
-					ft_printf("%s %4ld %s %s %8ld %s ", file->right, file->nlinks, file->owner, 
-					file->group, file->size, file->time);
-					ft_printf(CYAN"%s\n"STOP, file->name);
-				}
-				else if(ft_strchr(file->right, 'x'))
-				{
-					ft_printf("%s %4ld %s %s %8ld %s ", file->right, file->nlinks, file->owner, 
-					file->group, file->size, file->time);
-					ft_printf(RED"%s\n"STOP, file->name);
-				}
-				else
-				{
-					ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner,
-					file->group, file->size, file->time, file->name);
-				}
-				//printf("block = %ld\n", file->block);
-				file = file->next;
-			}
-	}
-	else
-	{
-		if(file->name)
-		{
-			while(file->next)
-				file = file->next;	
-			while(file)
-			{
-				if(file->d)
-				{
-					ft_printf("%s %4ld %s %s %8ld %s ", file->right, file->nlinks, file->owner, 
-					file->group, file->size, file->time);
-					ft_printf(CYAN"%s\n"STOP, file->name);
-				}
-				else if(ft_strchr(file->right, 'x'))
-				{
-					ft_printf("%s %4ld %s %s %8ld %s ", file->right, file->nlinks, file->owner, 
-					file->group, file->size, file->time);
-					ft_printf(RED"%s\n"STOP, file->name);
-				}
-				else
-				{
-					ft_printf("%s %4ld %s %s %8ld %s %s\n", file->right, file->nlinks, file->owner,
-					file->group, file->size, file->time, file->name);
-				}
-			//	ft_printf("stime = %lld\n", file->stime);
-				file = file->prev;
-			}
-		}
+		if(CHECK_OPS(ops, L))
+			ft_printf("%c%s %2ld %s %6s %4ld %12s ",file->type, file->right, file->nlinks, file->owner, 
+				file->group, file->size, file->time);
+		ft_print_color(file, ops);
+		if(!CHECK_OPS(ops, R))
+			file = file->next;
+		else
+			file = file->prev;
 	}
 }
-
-void	ft_disp_name(t_file *file, int ops)
-{
-	if(!CHECK_OPS(ops, R))
-	{
-		if(file->name)
-			while(file)
-			{
-				ft_printf("%s\n", file->name);
-				file = file->next;
-			}
-	}
-	else
-	{
-		if(file->name)
-		{
-			while(file->next)
-				file = file->next;	
-			while(file)
-			{
-				ft_printf("%s\n", file->name);
-				file = file->prev;
-			}
-		}
-	}
-}
-
 
 int main(int ac, char **av)
 {
@@ -138,5 +101,5 @@ int main(int ac, char **av)
 		}
 	}
 	
-	return 0;
+	return 1;
 }

@@ -14,7 +14,7 @@ CC      =   gcc
 RM      =   rm -f
 CFLAGS  =  -Wall -Werror -Wextra
 LIB		=	-L./libft -lft
-NAME    =   lsd
+NAME    =   ft_ls
 SRCS    =   src/ft_ls.c \
 			src/main.c \
 			src/parse.c \

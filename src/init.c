@@ -36,11 +36,14 @@ t_file *ft_init_file(void)
 	file->path = NULL;
 	file->group = NULL;
 	file->owner = NULL;
+	file->link = 0;
 	file->time = NULL;
 	file->right = NULL;
 	file->size = 0;
+	file->slink = 0;
 	file->nlinks = 0;
 	file->d = 0;
+	file->type = 0;
 	file->stime = 0;
 	file->block = 0;
 	file->prev = NULL;
