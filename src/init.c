@@ -1,5 +1,17 @@
 #include "ft_ls.h"
 
+t_size 		ft_init_size(void)
+{
+	t_size size;
+
+	size.a = 0;
+	size.b = 0;
+	size.c = 0;
+	size.d = 0;
+	size.e = 0;
+	return (size);
+}
+
 t_parse  ft_init_parse(void)
 {
 	t_parse parse;

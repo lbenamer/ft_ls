@@ -49,6 +49,12 @@ int	ft_print_color(t_file *file, int ops)
 
 void	ft_disp_file(t_file *file, int ops)
 {
+	t_size size;
+	char *print;
+
+	size = ft_get_size(file);
+	print = ft_make_str(size);
+
 	if(file->name && CHECK_OPS(ops, L))
 		ft_disp_block(file);
 	if(CHECK_OPS(ops, R))
@@ -57,8 +63,10 @@ void	ft_disp_file(t_file *file, int ops)
 	while(file)
 	{
 		if(CHECK_OPS(ops, L))
-			ft_printf("%c%s %2ld %s %6s %4ld %12s ",file->type, file->right, file->nlinks, file->owner, 
+			ft_printf(print ,file->type, file->right, file->nlinks, file->owner, 
 				file->group, file->size, file->time);
+			// ft_printf("%c%s %2ld %s %6s %4ld %12s ",file->type, file->right, file->nlinks, file->owner, 
+			// 	file->group, file->size, file->time);
 		ft_print_color(file, ops);
 		if(!CHECK_OPS(ops, R))
 			file = file->next;

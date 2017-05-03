@@ -81,6 +81,14 @@ typedef struct			s_parse
 	int		ops;
 }						t_parse;
 
+typedef struct 			s_size
+{
+	size_t a;
+	size_t b;
+	size_t c;
+	size_t d;
+	size_t e;
+}						t_size;
 
 // sort_list.c
 t_file					*ft_sort_lst(t_file *file, int ops);
@@ -120,6 +128,14 @@ t_dir					*ft_init_dir(void);
 t_file					*ft_init_file(void);
 int						ft_check_options(char *arg);
 int						ft_isops(char c);
+t_size 					ft_init_size(void);
+
+// print.c :
+ t_size  	ft_get_size(t_file *file);
+t_size 		ft_get_max(t_file *file, t_size size);
+size_t 		ft_nblen(long n);
+ char 	*ft_make_str(t_size size);
+
 // main.c :
 void disp(t_file *file);
 void					ft_disp_name(t_file *file, int ops);

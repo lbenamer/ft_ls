@@ -63,23 +63,16 @@ t_file 		*ft_get_info(t_file *file, t_stat info, int ops)
 			file->owner = pswd->pw_name;
 		gid = getgrgid(info.st_gid);
 		file->nlinks = info.st_nlink;
-		//if(file->type != 'l')
-			file->size = info.st_size;
+		file->size = info.st_size;
 		file->group = gid->gr_name;
 		file->right = ft_get_right(info.st_mode);
 		file->stime = info.st_mtime;
-		//if(file->type != 'l')
-			file->block = info.st_blocks;
+		file->block = info.st_blocks;
 		file->time = ctime(&info.st_mtime);
 		file->time = ft_mod_time(file->time);
 	}
 	if(CHECK_OPS(ops, T))
 		file->stime = info.st_mtime;
-	// if(file->type == 'l')
-	// {
-	// 	file->link = ft_get_link(info.st_size, path_nm);
-	// 	printf("file link = %s\n", file->link);
-	// }
 	return (file);
 }
 
@@ -88,7 +81,6 @@ t_file		*ft_get_file(t_file *file, int ops)
 {
 	t_file 	*tmp;
 	t_stat 	info;
-//	t_stat	i_link;
 	char 	*path_nm;
 
 	tmp = file;
@@ -106,11 +98,6 @@ t_file		*ft_get_file(t_file *file, int ops)
 			{
 				lstat(path_nm, &info);
 				tmp->link = ft_get_link(info.st_size, path_nm);
-				// info.st_size = i_link.st_size;
-				// info.st_blocks = i_link.st_blocks;
-				// info.st_mode = i_link.st_mode;
-			//	info = i_link;
-
 			}
 			tmp = ft_get_info(tmp, info, ops);
 			tmp = tmp->next;
