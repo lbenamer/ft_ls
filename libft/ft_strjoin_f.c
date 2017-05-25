@@ -28,11 +28,11 @@ char	*ft_strjoinf(char *s1, char *s2, int f)
 	while (s2[++j])
 		str[i++] = s2[j];
 	str[i] = '\0';
-	if (f == 1)
+	if (f == 1 && s1)
 		ft_strdel(&s1);
-	if (f == 2)
+	if (f == 2 && s2)
 		ft_strdel(&s2);
-	if (f == 3)
+	if (f == 3 && s2 && s1)
 	{
 		ft_strdel(&s1);
 		ft_strdel(&s2);

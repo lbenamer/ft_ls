@@ -37,6 +37,6 @@ char	*ft_itoa(int n)
 		tab[i--] = nb % 10 + 48;
 		nb = nb / 10;
 	}
-	n == 0 ? tab[i] = '-' : 0;
+	i == 0 ? tab[i] = '-' : 0;
 	return (tab);
 }

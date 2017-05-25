@@ -26,7 +26,6 @@ void	 	ft_cpy_data(t_file **tmp, t_file *file)
 	new->size = file->size;
 	new->nlinks = file->nlinks;
 	new->stime = file->stime;
-	new->d = file->d;
 	new->type = file->type;
 	new->block = file->block;
 	new->link = file->link;                         
@@ -40,6 +39,7 @@ void		ft_swap_lst(t_file **a, t_file **b)
 	ft_cpy_data(&tmp, *a);
 	ft_cpy_data(a, *b);
 	ft_cpy_data(b,tmp);	
+	free(tmp);
 }
 
 t_file 		*ft_is_sort_t(t_file *file)
@@ -59,14 +59,16 @@ t_file 	 	*ft_sort_time(t_file *file)
 	t_file *start;
 
 	start = file;
-	while((file = ft_is_sort_t(start)) && file->next)
+	while((file = ft_is_sort_t(start)) != NULL)
 	{
+		while(file->next)
+		{
 			if(file->stime < file->next->stime)
 				ft_swap_lst(&file, &file->next);
 			file = file->next;
+		}
 	}	
-	file = start;
-	return (file);
+	return (start);
 }
 
 t_file 		*ft_sort_ascii(t_file *file)
@@ -88,7 +90,9 @@ t_file 		*ft_sort_ascii(t_file *file)
 
 t_file 		*ft_sort_lst(t_file *file, int ops)
 {
-	if(!CHECK_OPS(ops, T))
+	if(CHECK_OPS(ops, F))
+		return (file);
+	else if(!CHECK_OPS(ops, T))
 		file = ft_sort_ascii(file);
 	else
 	 	file = ft_sort_time(file);

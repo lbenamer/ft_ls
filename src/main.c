@@ -1,5 +1,5 @@
 #include "ft_ls.h"
-
+ 
 void disp(t_file *file)
 {
 	while(file)
@@ -24,23 +24,26 @@ void 	ft_disp_block(t_file *file)
 
 int	ft_print_color(t_file *file, int ops)
 {
-	if(file->type == 'd')
+	if(CHECK_OPS(ops, G))
 	{
-		ft_printf(CYAN"%s\n"STOP, file->name);
-		return (1);
-	}
-	else if(file->type == 'l')
-	{
-		ft_printf(MAGENTA"%s"STOP, file->name);
-		if(CHECK_OPS(ops , L))
-			ft_printf(" -> %s", file->link);
-		ft_printf("\n");
-		return (1);
-	}
-	else if(ft_strchr(file->right, 'x'))
-	{
-		ft_printf(RED"%s\n"STOP, file->name);
-		return (1);
+		if(file->type == 'd')
+			ft_printf(CYAN"%s\n"STOP, file->name);
+		else if(file->type == 'l')
+		{
+			ft_printf(MAGENTA"%s"STOP, file->name);
+			if(CHECK_OPS(ops , L))
+				ft_printf(" -> %s", file->link);
+			ft_printf("\n");
+			ft_strdel(&(file->link));
+		}
+		else if(ft_strchr(file->right, 'x'))
+			ft_printf(RED"%s\n"STOP, file->name);
+		else if(file->type == 'c')
+			ft_printf(YELLOW"%s\n"STOP, file->name);
+		else if(file->type == 'b')
+			ft_printf(GREEN"%s\n"STOP, file->name);
+		else
+			ft_printf("%s\n", file->name);
 	}
 	else
 		ft_printf("%s\n", file->name);
@@ -49,12 +52,15 @@ int	ft_print_color(t_file *file, int ops)
 
 void	ft_disp_file(t_file *file, int ops)
 {
-	t_size size;
-	char *print;
+	 t_size size;
+	 char *print;
 
-	size = ft_get_size(file);
-	print = ft_make_str(size);
+	if(CHECK_OPS(ops, L))
+	{
+		size = ft_get_size(file);
+	  	print = ft_make_str(size);
 
+	}
 	if(file->name && CHECK_OPS(ops, L))
 		ft_disp_block(file);
 	if(CHECK_OPS(ops, R))
@@ -63,16 +69,17 @@ void	ft_disp_file(t_file *file, int ops)
 	while(file)
 	{
 		if(CHECK_OPS(ops, L))
+		{
 			ft_printf(print ,file->type, file->right, file->nlinks, file->owner, 
-				file->group, file->size, file->time);
-			// ft_printf("%c%s %2ld %s %6s %4ld %12s ",file->type, file->right, file->nlinks, file->owner, 
-			// 	file->group, file->size, file->time);
+				 file->group, file->size, file->time);
+		}
 		ft_print_color(file, ops);
 		if(!CHECK_OPS(ops, R))
 			file = file->next;
 		else
 			file = file->prev;
 	}
+	CHECK_OPS(ops, L) ? ft_strdel(&print) : 0;
 }
 
 int main(int ac, char **av)
@@ -81,6 +88,8 @@ int main(int ac, char **av)
 	int 	i;
 	int 	size; 
 
+// while(1)
+// {
 	i = -1;
 	if(ac == 1)
 		parse = ft_no_parse();
@@ -107,7 +116,7 @@ int main(int ac, char **av)
 			if(size > 1 && i != 0)
 				ft_printf("\n");
 		}
-	}
-	
+	}	
+// }
 	return 1;
 }

@@ -51,13 +51,11 @@ t_dir	*ft_add_dir(t_dir *dir, char *name, char *path, int open)
 	t_dir *tmp;
 
 	tmp = dir;
-	//printf("hey 1\n");
 	if(!dir->name)
 	{
 		dir->name = ft_strdup(name);
 		dir->path = ft_strdup(path);
 		dir->open = open;
-	//	printf("hey 3\n");
 		return (dir);
 	}
 	else

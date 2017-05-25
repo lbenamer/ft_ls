@@ -34,7 +34,7 @@ void	ft_disp_usage(char *arg)
 	i = 1;
 	while(ft_isops(arg[i]))
 		++i;
-	ft_printf("ft_ls : illegal option -- %c\nusage: ./ft_ls [-Ralrt] [file ...]\n", arg[i]);
+	ft_printf("ft_ls : illegal option -- %c\nusage: ./ft_ls [-1GRaflrt] [file ...]\n", arg[i]);
 }
 
 int  ft_activ_ops(int ops, char *arg)
@@ -54,6 +54,10 @@ int  ft_activ_ops(int ops, char *arg)
 			ops |= L;
 		else if(arg[i] == 't')
 			ops |= T;
+		else if(arg[i] == 'f')
+			ops |= F;
+		else if(arg[i] == 'G')
+			ops |= G;
 	}
 	return (ops);
 }
@@ -106,7 +110,14 @@ t_parse   ft_parse(char **av, int ac)
 	while(++j < i)
 		parse.ops = ft_activ_ops(parse.ops, av[j]);
 	parse.path = ft_set_path(av, ac, i);
-	//disp_parse(parse);
+	if(CHECK_OPS(parse.ops, F))
+	{
+		parse.ops |= A;
+		CHECK_OPS(parse.ops, G) ? parse.ops -= G : 0;
+		CHECK_OPS(parse.ops, R) ? parse.ops -= R : 0;
+		CHECK_OPS(parse.ops, T) ? parse.ops -= T : 0;
+
+	}
 	return (parse);
 }
 

@@ -19,26 +19,23 @@ char	*ft_get_right(size_t n)
 	return (s);
 }
 
-char 	ft_get_type(unsigned char type)
+char 	ft_get_type(t_stat info)
 {
-	if (type == DT_BLK)
-		return('b');
-	else if (type == DT_CHR)
-		return('c');
-	else if (type == DT_DIR)
-		return('d');
-	else if (type == DT_FIFO)
-		return('p');
-	else if (type == DT_LNK)
-		return('l');
-	else if (type == DT_REG)
-		return('-');
-	else if (type == DT_SOCK)
-		return('s');
-	else if (type == DT_UNKNOWN)
-		return('-');
-	else
+	if ((info.st_mode & S_IFMT) == S_IFREG)
 		return ('-');
+	if ((info.st_mode & S_IFMT) == S_IFDIR)
+		return ('d');
+	if ((info.st_mode & S_IFMT) == S_IFIFO)
+		return ('p');
+	if ((info.st_mode & S_IFMT) == S_IFLNK)
+		return ('l');
+	if (S_ISCHR(info.st_mode))
+		return ('c');
+	if (S_ISBLK(info.st_mode))
+		return ('b');
+	if ((info.st_mode & S_IFMT) == S_IFSOCK)
+		return ('s');
+	return ('?');
 }
 
 char 	*ft_get_link(size_t size, char *path)
@@ -55,7 +52,9 @@ t_file 		*ft_get_info(t_file *file, t_stat info, int ops)
 	t_pwd *pswd;
 	t_grp *gid;
 
-	if(CHECK_OPS(ops, L))
+	
+	file->type = ft_get_type(info);
+	if(CHECK_OPS(ops, L) || CHECK_OPS(ops, G))
 	{
 		if(!(pswd = getpwuid(info.st_uid)))
 			file->owner = "204";
@@ -87,22 +86,23 @@ t_file		*ft_get_file(t_file *file, int ops)
 	while(tmp)
 	{
 		path_nm = ft_strjoin(tmp->path, tmp->name);
-		if(stat(path_nm, &info) < 0)
+		if(tmp->type == 'l')
 		{
-			perror("stat error ");
-			tmp = tmp->next;
+				if(lstat(path_nm, &info) >= 0)
+				{
+					tmp->link = ft_get_link(info.st_size, path_nm);
+					tmp = ft_get_info(tmp, info, ops);
+				}
 		}
 		else
 		{
-			if(tmp->type == 'l')
-			{
-				lstat(path_nm, &info);
-				tmp->link = ft_get_link(info.st_size, path_nm);
-			}
-			tmp = ft_get_info(tmp, info, ops);
-			tmp = tmp->next;
+			if(stat(path_nm, &info) >= 0)
+				tmp = ft_get_info(tmp, info, ops);
 		}
+		tmp = tmp->next;
 	}
+	ft_strdel(&path_nm);
+	free(tmp);
 	return (file);
 }
 
@@ -111,20 +111,21 @@ t_dirent 	*ft_get_dirent(DIR *rep)
 	t_dirent 	*dirent;
 
 	if(!(dirent = readdir(rep)))
-	{
-		//perror("readdir :");
 		return(NULL);
-	}
 	return (dirent);
 }
 
 DIR 	*ft_get_dir(char *name)
 {
 	DIR *rep;
+	char *error;
 
 	if(!(rep = opendir(name)))
 	{
-		perror("opendir");
+		name[ft_strlen_p(name) - 1] = '\0';
+		error = ft_strjoin("ft_ls: ", name);
+		perror(error);
+		ft_strdel(&error);
 		return (NULL);
 	}
 	return (rep);
@@ -134,9 +135,17 @@ char	*ft_mod_time(char *time)
 {
 	char **tab;
 	char *ret;
+	int i;
 
+	i = -1;
 	tab = ft_strsplit(time, ' ');
 	tab[3][5] = '\0';
-	ret = ft_joinstr(tab[2], 0, 4," ", tab[1], " ", tab[3]);
+	ret = ft_strjoinf(tab[2], " ", 0);
+	ret = ft_strjoinf(ret, tab[1], 1);
+	ret = ft_strjoinf(ret, " ", 1);
+	ret = ft_strjoinf(ret, tab[3], 1);
+	 while(tab[++i])
+	 	ft_strdel(&tab[i]);
+	 free(tab);
 	return(ret);
 }

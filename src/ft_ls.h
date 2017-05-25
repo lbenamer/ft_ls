@@ -16,15 +16,17 @@
 # define R	4
 # define T	8
 # define RR	16
+# define F  32
+# define G 	64
 
-# define STOP		"\033[0m"
+# define STOP		"\033[00m"
 # define BOLD		"\033[1m"
 # define ITALIC		"\033[3m"
 # define UNDERLINE	"\033[4m"
 # define BLACK		"\033[30m"
 # define RED		"\033[31m"
-# define GREEN		"\033[32m"
-# define YELLOW		"\033[33m"
+# define GREEN		"\033[32;01m"
+# define YELLOW		"\033[33;01m"
 # define BLUE		"\033[34m"
 # define MAGENTA	"\033[35m"
 # define CYAN		"\033[36;01m"
@@ -50,7 +52,6 @@ typedef struct			s_file
 	size_t			nlinks;
 	size_t 			stime;
 	size_t			block;
-	int				d;
 	struct s_file	*prev;
 	struct s_file	*next;
 }						t_file;
@@ -120,7 +121,7 @@ t_file					*ft_get_file(t_file *file, int ops);
 t_dirent				*ft_get_dirent(DIR *rep);
 DIR						*ft_get_dir(char *name);
 char					*ft_mod_time(char *time);
-char 					ft_get_type(unsigned char type);
+char 					ft_get_type(t_stat info);
 
 // init.c :
 t_parse					ft_init_parse(void);
